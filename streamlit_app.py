@@ -296,18 +296,11 @@ with st.sidebar.expander("📊 Statistics", expanded=False):
 if 'show_right_panel' not in st.session_state:
     st.session_state.show_right_panel = False
 
-# Toggle button for right panel
-col_toggle, col_spacer = st.columns([1, 10])
-with col_toggle:
-    if st.button("📋" if not st.session_state.show_right_panel else "✖️", help="Toggle ranked locations panel"):
-        st.session_state.show_right_panel = not st.session_state.show_right_panel
-        st.rerun()
-
-# Main layout - dynamic based on right panel state
+# Main layout with chevron toggle on right edge
 if st.session_state.show_right_panel:
-    map_col, list_col = st.columns([3, 1])
+    map_col, list_col, chevron_col = st.columns([14, 5, 1])
 else:
-    map_col = st.container()
+    map_col, chevron_col = st.columns([19, 1])
     list_col = None
 
 with map_col:
@@ -343,3 +336,10 @@ if st.session_state.show_right_panel and list_col:
                 </div>
             </div>
             """, unsafe_allow_html=True)
+
+# Chevron toggle on right edge
+with chevron_col:
+    chevron = "›" if not st.session_state.show_right_panel else "‹"
+    if st.button(chevron, key="right_panel_toggle", help="Toggle ranked locations"):
+        st.session_state.show_right_panel = not st.session_state.show_right_panel
+        st.rerun()
