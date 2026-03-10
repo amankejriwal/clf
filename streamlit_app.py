@@ -7,9 +7,9 @@ from streamlit_folium import st_folium
 st.set_page_config(page_title="Clinic Finder", layout="wide")
 st.title("🏥 Clinic Location Finder - Netherlands")
 
-@st.cache_data
+@st.cache_data(ttl=60)  # Cache for 60 seconds only
 def load_data():
-    """Load all pre-calculated data files for fast startup"""
+    """Load all pre-calculated data files for fast startup - v2"""
     # Load simplified boundary GeoJSON (much faster than shapefile)
     with open('data/netherlands_boundary.geojson') as f:
         boundary_geojson = json.load(f)
