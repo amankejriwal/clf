@@ -169,32 +169,50 @@ def create_map(boundary_geojson, population_centers, clinics, dental_clinics, sc
     if show_potential:
         potential_group = folium.FeatureGroup(name="Potential New Clinic Locations")
         
-        # Get max score for color scaling
-        max_score = max([loc['score'] for loc in potential_locations]) if potential_locations else 1
-        
         for loc in potential_locations:
-            # Color intensity based on score (higher = more green)
-            score_ratio = loc['score'] / max_score
+            rank = loc.get('rank', 0)
+            distance_weesp = loc.get('distance_from_weesp', 0)
+            rank_score = loc.get('rank_score', 0)
+            
+            # Top 5 get green, rest get gold
+            is_top = rank <= 5
             
             popup_text = f"""
-                <b>⭐ Opportunity Score: {loc['score']}</b><br>
+                <b>🏆 Rank #{rank}</b><br>
                 <hr style='margin:5px 0'>
-                📍 Lat: {loc['latitude']:.4f}, Lon: {loc['longitude']:.4f}<br>
+                <b>Final Score: {rank_score:.3f}</b><br>
+                (70% opportunity + 30% proximity)<br>
+                <hr style='margin:5px 0'>
+                ⭐ Opportunity Score: {loc['score']}<br>
+                📍 Distance from Weesp: {distance_weesp} km<br>
+                <hr style='margin:5px 0'>
                 👥 Population (10km): {loc['population']:,}<br>
                 🏫 Schools (10km): {loc['school_count']}<br>
                 🦷 Dental clinics (10km): {loc['dental_count']}<br>
                 🤓 Orthodontists (10km): {loc['ortho_count']}
             """
             
+            # Draw the circle
             folium.Circle(
                 location=[loc["latitude"], loc["longitude"]],
                 radius=10000,
-                color="darkgreen" if score_ratio > 0.7 else "black",
+                color="darkgreen" if is_top else "black",
                 fill=True,
-                fill_color="lime" if score_ratio > 0.7 else "gold",
-                fill_opacity=0.6 if score_ratio > 0.7 else 0.4,
-                weight=2 if score_ratio > 0.7 else 1,
+                fill_color="lime" if is_top else "gold",
+                fill_opacity=0.5 if is_top else 0.3,
+                weight=2 if is_top else 1,
                 popup=popup_text
+            ).add_to(potential_group)
+            
+            # Add numbered marker at center
+            folium.Marker(
+                location=[loc["latitude"], loc["longitude"]],
+                popup=popup_text,
+                icon=folium.DivIcon(
+                    html=f'<div style="font-size: 14px; font-weight: bold; color: white; background-color: {"#228B22" if is_top else "#B8860B"}; border-radius: 50%; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">{rank}</div>',
+                    icon_size=(28, 28),
+                    icon_anchor=(14, 14)
+                )
             ).add_to(potential_group)
         
         potential_group.add_to(m)
@@ -274,11 +292,14 @@ st.sidebar.markdown("""
 **Schools:**
 - 🟢 Light Green: Primary & secondary schools (5km radius)
 
-**Potential Locations:**
-- � Lime: Top opportunities (score > 70%)
-- �� Gold: Good opportunities
+**Potential Locations (Ranked):**
+- 🟢 Lime (#1-5): Top ranked locations
+- 🟡 Gold (#6+): Other good locations
 
-**Scoring Formula:**
+**Ranking Formula:**
+`70% Opportunity Score + 30% Proximity to Weesp`
+
+**Opportunity Score:**
 `(Pop/10k) + (Schools×2) + (Dental×1) - (Ortho×20)`
 """)
 

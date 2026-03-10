@@ -138,6 +138,10 @@ def calculate_potential_locations(gdf, population_centers, clinics, dental_clini
         # Calculate weighted score
         score = (total_population / 10000) + (school_count * 2) + (dental_count * 1) - (ortho_count * 20)
         
+        # Calculate distance from Weesp (home base)
+        weesp_coords = (52.3082, 5.0416)  # Weesp, Netherlands
+        distance_from_weesp = geodesic(weesp_coords, point).kilometers
+        
         # Stricter thresholds: Score > 50, fewer than 3 orthodontists, minimum population, NOT in exclusion zone
         if score > 50 and ortho_count < 3 and total_population >= 50000 and not in_ortho_exclusion_zone:
             potential_locations.append({
@@ -147,11 +151,28 @@ def calculate_potential_locations(gdf, population_centers, clinics, dental_clini
                 'ortho_count': ortho_count,
                 'dental_count': dental_count,
                 'school_count': school_count,
-                'score': round(score, 1)
+                'score': round(score, 1),
+                'distance_from_weesp': round(distance_from_weesp, 1)
             })
     
-    # Sort by score descending
-    potential_locations.sort(key=lambda x: x['score'], reverse=True)
+    # Calculate final rank score: 70% opportunity score + 30% proximity to Weesp
+    # Normalize scores for fair comparison
+    if potential_locations:
+        max_score = max(loc['score'] for loc in potential_locations)
+        max_distance = max(loc['distance_from_weesp'] for loc in potential_locations)
+        
+        for loc in potential_locations:
+            # Normalize: score (higher is better), distance (lower is better, so invert)
+            normalized_score = loc['score'] / max_score if max_score > 0 else 0
+            normalized_proximity = 1 - (loc['distance_from_weesp'] / max_distance) if max_distance > 0 else 0
+            
+            # Final rank score: 70% opportunity + 30% proximity
+            loc['rank_score'] = round((normalized_score * 0.7) + (normalized_proximity * 0.3), 3)
+        
+        # Sort by rank_score descending and assign ranks
+        potential_locations.sort(key=lambda x: x['rank_score'], reverse=True)
+        for i, loc in enumerate(potential_locations):
+            loc['rank'] = i + 1
     
     elapsed = time.time() - start_time
     print(f"  Found {len(potential_locations)} potential locations in {elapsed:.1f}s")
