@@ -4,8 +4,7 @@ import folium
 from folium.plugins import Draw, Geocoder
 from streamlit_folium import st_folium
 
-st.set_page_config(page_title="Clinic Finder", layout="wide")
-st.title("🏥 Clinic Location Finder - Netherlands")
+st.set_page_config(page_title="Clinic Finder", layout="wide", initial_sidebar_state="collapsed")
 
 @st.cache_data(ttl=60)  # Cache for 60 seconds only
 def load_data():
@@ -258,86 +257,89 @@ def create_map(boundary_geojson, population_centers, clinics, dental_clinics, sc
 with st.spinner("Loading data..."):
     boundary_geojson, population_centers, clinics, dental_clinics, schools, potential_locations = load_data()
 
-# Left Sidebar - Controls
-st.sidebar.header("🗺️ Map Controls")
-
-show_population = st.sidebar.checkbox("Show Population Centers", value=True)
-show_clinics = st.sidebar.checkbox("Show Orthodontic Clinics", value=True)
-show_dental = st.sidebar.checkbox("Show Dental Clinics", value=True)
-show_schools = st.sidebar.checkbox("Show Schools", value=False)
-show_potential = st.sidebar.checkbox("Show Potential Locations", value=True)
-
+# Left Sidebar - Title and Controls (collapsible via Streamlit's built-in sidebar toggle)
+st.sidebar.title("🏥 Clinic Location Finder")
+st.sidebar.caption("Netherlands")
 st.sidebar.markdown("---")
-st.sidebar.header("� Filters")
 
-# Rent range filter (placeholder values - can be updated with real data)
-rent_range = st.sidebar.slider(
-    "Monthly Rent Range (€)",
-    min_value=500,
-    max_value=5000,
-    value=(1000, 3000),
-    step=100
-)
+with st.sidebar.expander("🗺️ Map Controls", expanded=True):
+    show_population = st.checkbox("Show Population Centers", value=True)
+    show_clinics = st.checkbox("Show Orthodontic Clinics", value=True)
+    show_dental = st.checkbox("Show Dental Clinics", value=True)
+    show_schools = st.checkbox("Show Schools", value=False)
+    show_potential = st.checkbox("Show Potential Locations", value=True)
 
-# EUR/m2 range filter
-eur_m2_range = st.sidebar.slider(
-    "Price per m² (€/m²)",
-    min_value=10,
-    max_value=50,
-    value=(15, 35),
-    step=1
-)
+with st.sidebar.expander("🔍 Filters", expanded=False):
+    rent_range = st.slider(
+        "Monthly Rent Range (€)",
+        min_value=500,
+        max_value=5000,
+        value=(1000, 3000),
+        step=100
+    )
+    eur_m2_range = st.slider(
+        "Price per m² (€/m²)",
+        min_value=10,
+        max_value=50,
+        value=(15, 35),
+        step=1
+    )
 
-st.sidebar.markdown("---")
-st.sidebar.header("📊 Statistics")
-col1, col2 = st.sidebar.columns(2)
-col1.metric("Ortho Clinics", len(clinics))
-col2.metric("Dental Clinics", len(dental_clinics))
-col1.metric("Schools", len(schools))
-col2.metric("Potential", len(potential_locations))
+with st.sidebar.expander("📊 Statistics", expanded=False):
+    col1, col2 = st.columns(2)
+    col1.metric("Ortho", len(clinics))
+    col2.metric("Dental", len(dental_clinics))
+    col1.metric("Schools", len(schools))
+    col2.metric("Potential", len(potential_locations))
 
-# Main layout with map and right panel
-map_col, list_col = st.columns([3, 1])
+# Session state for right panel visibility
+if 'show_right_panel' not in st.session_state:
+    st.session_state.show_right_panel = False
+
+# Toggle button for right panel
+col_toggle, col_spacer = st.columns([1, 10])
+with col_toggle:
+    if st.button("📋" if not st.session_state.show_right_panel else "✖️", help="Toggle ranked locations panel"):
+        st.session_state.show_right_panel = not st.session_state.show_right_panel
+        st.rerun()
+
+# Main layout - dynamic based on right panel state
+if st.session_state.show_right_panel:
+    map_col, list_col = st.columns([3, 1])
+else:
+    map_col = st.container()
+    list_col = None
 
 with map_col:
-    # Create and display map
     m = create_map(boundary_geojson, population_centers, clinics, dental_clinics, schools, potential_locations, show_population, show_clinics, show_dental, show_schools, show_potential)
-    st_folium(m, width=None, height=650, use_container_width=True)
+    st_folium(m, width=None, height=700, use_container_width=True)
 
-with list_col:
-    st.markdown("### 🏆 Ranked Locations")
-    st.markdown(f"*Rent: €{rent_range[0]}-{rent_range[1]}/mo | €{eur_m2_range[0]}-{eur_m2_range[1]}/m²*")
-    st.markdown("---")
-    
-    for loc in potential_locations:
-        rank = loc.get('rank', 0)
-        score = loc.get('score', 0)
-        distance = loc.get('distance_from_weesp', 0)
-        population = loc.get('population', 0)
+if st.session_state.show_right_panel and list_col:
+    with list_col:
+        st.markdown("### 🏆 Ranked Locations")
+        st.markdown(f"*€{rent_range[0]}-{rent_range[1]}/mo*")
+        st.markdown("---")
         
-        # Color based on rank
-        if rank <= 5:
-            badge_color = "#228B22"
-        else:
-            badge_color = "#B8860B"
-        
-        st.markdown(f"""
-        <div style="background: linear-gradient(135deg, {badge_color}22, {badge_color}11); 
-                    border-left: 4px solid {badge_color}; 
-                    padding: 10px; 
-                    margin-bottom: 8px; 
-                    border-radius: 4px;">
-            <div style="display: flex; justify-content: space-between; align-items: center;">
-                <span style="font-size: 20px; font-weight: bold; color: {badge_color};">#{rank}</span>
-                <span style="font-size: 12px; color: #666;">⭐ {score}</span>
+        for loc in potential_locations:
+            rank = loc.get('rank', 0)
+            score = loc.get('score', 0)
+            distance = loc.get('distance_from_weesp', 0)
+            population = loc.get('population', 0)
+            
+            badge_color = "#228B22" if rank <= 5 else "#B8860B"
+            
+            st.markdown(f"""
+            <div style="background: linear-gradient(135deg, {badge_color}22, {badge_color}11); 
+                        border-left: 4px solid {badge_color}; 
+                        padding: 8px; 
+                        margin-bottom: 6px; 
+                        border-radius: 4px;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span style="font-size: 18px; font-weight: bold; color: {badge_color};">#{rank}</span>
+                    <span style="font-size: 11px; color: #666;">⭐ {score}</span>
+                </div>
+                <div style="font-size: 11px; color: #444; margin-top: 3px;">
+                    📍 {distance} km | 👥 {population:,}
+                </div>
             </div>
-            <div style="font-size: 12px; color: #444; margin-top: 4px;">
-                📍 {distance} km from Weesp<br>
-                👥 {population:,} pop (10km)
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
-
-# Footer
-st.markdown("---")
-st.caption("*Clinic Finder - Identifying underserved areas for new orthodontic clinics in the Netherlands*")
+            """, unsafe_allow_html=True)
