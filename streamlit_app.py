@@ -1,6 +1,5 @@
 import streamlit as st
 import json
-import geopandas as gpd
 import folium
 from folium.plugins import Draw, Geocoder
 from streamlit_folium import st_folium
@@ -11,7 +10,9 @@ st.title("🏥 Clinic Location Finder - Netherlands")
 @st.cache_data
 def load_data():
     """Load all pre-calculated data files for fast startup"""
-    gdf = gpd.read_file('netherlands_Netherlands_Country_Boundary.shp')
+    # Load simplified boundary GeoJSON (much faster than shapefile)
+    with open('data/netherlands_boundary.geojson') as f:
+        boundary_geojson = json.load(f)
     
     with open('nl_population.json') as f:
         population_centers = json.load(f)
@@ -31,9 +32,9 @@ def load_data():
     with open('data/potential_locations.json') as f:
         potential_locations = json.load(f)
     
-    return gdf, population_centers, clinics, dental_clinics, schools, potential_locations
+    return boundary_geojson, population_centers, clinics, dental_clinics, schools, potential_locations
 
-def create_map(gdf, population_centers, clinics, dental_clinics, schools, potential_locations, show_population, show_clinics, show_dental, show_schools, show_potential):
+def create_map(boundary_geojson, population_centers, clinics, dental_clinics, schools, potential_locations, show_population, show_clinics, show_dental, show_schools, show_potential):
     """Create the folium map with all layers"""
     # Initialize map centered on Netherlands
     m = folium.Map(location=[52.3676, 4.9041], zoom_start=8, tiles='OpenStreetMap')
@@ -46,7 +47,7 @@ def create_map(gdf, population_centers, clinics, dental_clinics, schools, potent
     
     # Add Netherlands boundary
     folium.GeoJson(
-        gdf.to_json(),
+        boundary_geojson,
         name="Netherlands Boundary",
         style_function=lambda x: {
             'fillColor': 'transparent',
@@ -237,7 +238,7 @@ def create_map(gdf, population_centers, clinics, dental_clinics, schools, potent
 
 # Load pre-calculated data (fast!)
 with st.spinner("Loading data..."):
-    gdf, population_centers, clinics, dental_clinics, schools, potential_locations = load_data()
+    boundary_geojson, population_centers, clinics, dental_clinics, schools, potential_locations = load_data()
 
 # Sidebar controls
 st.sidebar.header("🗺️ Map Controls")
@@ -282,7 +283,7 @@ st.sidebar.markdown("""
 """)
 
 # Create and display map
-m = create_map(gdf, population_centers, clinics, dental_clinics, schools, potential_locations, show_population, show_clinics, show_dental, show_schools, show_potential)
+m = create_map(boundary_geojson, population_centers, clinics, dental_clinics, schools, potential_locations, show_population, show_clinics, show_dental, show_schools, show_potential)
 
 st_folium(m, width=None, height=600, use_container_width=True)
 
