@@ -258,7 +258,7 @@ def create_map(boundary_geojson, population_centers, clinics, dental_clinics, sc
 with st.spinner("Loading data..."):
     boundary_geojson, population_centers, clinics, dental_clinics, schools, potential_locations = load_data()
 
-# Sidebar controls
+# Left Sidebar - Controls
 st.sidebar.header("🗺️ Map Controls")
 
 show_population = st.sidebar.checkbox("Show Population Centers", value=True)
@@ -268,46 +268,76 @@ show_schools = st.sidebar.checkbox("Show Schools", value=False)
 show_potential = st.sidebar.checkbox("Show Potential Locations", value=True)
 
 st.sidebar.markdown("---")
-st.sidebar.header("📊 Statistics")
-st.sidebar.metric("Population Centers", len([p for p in population_centers if p["population"] > 20000]))
-st.sidebar.metric("Orthodontic Clinics", len(clinics))
-st.sidebar.metric("Dental Clinics", len(dental_clinics))
-st.sidebar.metric("Schools", len(schools))
-st.sidebar.metric("Potential Locations", len(potential_locations))
+st.sidebar.header("� Filters")
+
+# Rent range filter (placeholder values - can be updated with real data)
+rent_range = st.sidebar.slider(
+    "Monthly Rent Range (€)",
+    min_value=500,
+    max_value=5000,
+    value=(1000, 3000),
+    step=100
+)
+
+# EUR/m2 range filter
+eur_m2_range = st.sidebar.slider(
+    "Price per m² (€/m²)",
+    min_value=10,
+    max_value=50,
+    value=(15, 35),
+    step=1
+)
 
 st.sidebar.markdown("---")
-st.sidebar.header("🎨 Legend")
-st.sidebar.markdown("""
-**Population Centers:**
-- 🟠 Light Orange: 500 - 20,000
-- 🟠 Orange: 20,001 - 40,000
-- 🟠 Dark Orange: 40,001 - 80,000
-- 🟠 Darker Orange: 80,000 - 300,000
-- 🟣 Purple: 300,000+
+st.sidebar.header("📊 Statistics")
+col1, col2 = st.sidebar.columns(2)
+col1.metric("Ortho Clinics", len(clinics))
+col2.metric("Dental Clinics", len(dental_clinics))
+col1.metric("Schools", len(schools))
+col2.metric("Potential", len(potential_locations))
 
-**Clinics:**
-- 🔴 Red: Existing orthodontic clinics
-- 🔵 Azure Blue: Dental clinics (5km radius)
+# Main layout with map and right panel
+map_col, list_col = st.columns([3, 1])
 
-**Schools:**
-- 🟢 Light Green: Primary & secondary schools (5km radius)
+with map_col:
+    # Create and display map
+    m = create_map(boundary_geojson, population_centers, clinics, dental_clinics, schools, potential_locations, show_population, show_clinics, show_dental, show_schools, show_potential)
+    st_folium(m, width=None, height=650, use_container_width=True)
 
-**Potential Locations (Ranked):**
-- 🟢 Lime (#1-5): Top ranked locations
-- 🟡 Gold (#6+): Other good locations
-
-**Ranking Formula:**
-`70% Opportunity Score + 30% Proximity to Weesp`
-
-**Opportunity Score:**
-`(Pop/10k) + (Schools×2) + (Dental×1) - (Ortho×20)`
-""")
-
-# Create and display map
-m = create_map(boundary_geojson, population_centers, clinics, dental_clinics, schools, potential_locations, show_population, show_clinics, show_dental, show_schools, show_potential)
-
-st_folium(m, width=None, height=600, use_container_width=True)
+with list_col:
+    st.markdown("### 🏆 Ranked Locations")
+    st.markdown(f"*Rent: €{rent_range[0]}-{rent_range[1]}/mo | €{eur_m2_range[0]}-{eur_m2_range[1]}/m²*")
+    st.markdown("---")
+    
+    for loc in potential_locations:
+        rank = loc.get('rank', 0)
+        score = loc.get('score', 0)
+        distance = loc.get('distance_from_weesp', 0)
+        population = loc.get('population', 0)
+        
+        # Color based on rank
+        if rank <= 5:
+            badge_color = "#228B22"
+        else:
+            badge_color = "#B8860B"
+        
+        st.markdown(f"""
+        <div style="background: linear-gradient(135deg, {badge_color}22, {badge_color}11); 
+                    border-left: 4px solid {badge_color}; 
+                    padding: 10px; 
+                    margin-bottom: 8px; 
+                    border-radius: 4px;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-size: 20px; font-weight: bold; color: {badge_color};">#{rank}</span>
+                <span style="font-size: 12px; color: #666;">⭐ {score}</span>
+            </div>
+            <div style="font-size: 12px; color: #444; margin-top: 4px;">
+                📍 {distance} km from Weesp<br>
+                👥 {population:,} pop (10km)
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
 
 # Footer
 st.markdown("---")
-st.markdown("*Clinic Finder - Identifying underserved areas for new orthodontic clinics in the Netherlands*")
+st.caption("*Clinic Finder - Identifying underserved areas for new orthodontic clinics in the Netherlands*")
