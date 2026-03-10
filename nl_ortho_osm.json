@@ -1,0 +1,5670 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.10 2d4cfc48",
+  "osm3s": {
+    "timestamp_osm_base": "2026-03-10T11:54:45Z",
+    "timestamp_areas_base": "2026-01-22T23:45:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 211549783,
+  "lat": 51.9163035,
+  "lon": 4.3884517,
+  "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "orthodox",
+    "name": "Roemeens Orthodoxe Parochie",
+    "religion": "christian",
+    "url": "www.orthodoxekerk.org"
+  }
+},
+{
+  "type": "node",
+  "id": 648891029,
+  "lat": 50.8741238,
+  "lon": 6.0198543,
+  "tags": {
+    "addr:city": "Landgraaf",
+    "addr:country": "NL",
+    "addr:housenumber": "1",
+    "addr:postcode": "6372VG",
+    "addr:street": "Witte Wereld",
+    "email": "hotel@snowworld.com",
+    "fax": "+31 45 547 0629",
+    "internet_access": "wlan",
+    "name": "Sporthotel Landgraaf",
+    "phone": "+31 45 547 0656",
+    "rooms": "100",
+    "stars": "4",
+    "tourism": "hotel",
+    "website": "https://www.snowworld.com/landgraaf/nl/hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 736217429,
+  "lat": 52.3025983,
+  "lon": 6.5003169,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Syrisch-Orthodoxe kerk",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 1454272252,
+  "lat": 51.8365310,
+  "lon": 4.9559626,
+  "tags": {
+    "addr:city": "Gorinchem",
+    "addr:housenumber": "1",
+    "addr:postcode": "4204EL",
+    "addr:street": "Twijnderstraat",
+    "medical_supply": "orthopedic",
+    "name": "Bronkhorst Orthopedische Schoentechniek",
+    "shop": "medical_supply",
+    "source": "BAG",
+    "source:date": "2014-03-24"
+  }
+},
+{
+  "type": "node",
+  "id": 1566894884,
+  "lat": 52.0897609,
+  "lon": 4.3406514,
+  "tags": {
+    "addr:city": "'s-Gravenhage",
+    "addr:country": "NL",
+    "addr:housenumber": "11",
+    "addr:postcode": "2593RD",
+    "addr:street": "Cornelis Houtmanstraat",
+    "amenity": "place_of_worship",
+    "name": "Orthodox Jewish Synagogue",
+    "phone": "+31 70 347 3201",
+    "religion": "jewish",
+    "source": "BAG",
+    "source:date": "2017-11-08",
+    "website": "https://www.joodsdenhaag.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 1861710405,
+  "lat": 52.0769516,
+  "lon": 4.7516467,
+  "tags": {
+    "addr:city": "Bodegraven",
+    "addr:housenumber": "1",
+    "addr:postcode": "2411LG",
+    "addr:street": "Vromade",
+    "leisure": "sports_centre",
+    "name": "Sporthoeve",
+    "source": "BAG",
+    "source:date": "2014-03-24"
+  }
+},
+{
+  "type": "node",
+  "id": 1921431126,
+  "lat": 52.6645383,
+  "lon": 4.8269689,
+  "tags": {
+    "addr:city": "Heerhugowaard",
+    "addr:housenumber": "100",
+    "addr:postcode": "1703SH",
+    "addr:street": "Middenwaard",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "BraceTime",
+    "source": "BAG",
+    "source:date": "2014-05-07",
+    "website": "https://bracetimeheerhugowaard.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 1962671764,
+  "lat": 52.1954238,
+  "lon": 5.4312137,
+  "tags": {
+    "addr:city": "Amersfoort",
+    "addr:housenumber": "17",
+    "addr:postcode": "3825MA",
+    "addr:street": "Wouda",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Ortholuna orthodontie - Vathorst",
+    "phone": "+31 33 494 4296",
+    "source": "BAG",
+    "source:date": "2026-02-06",
+    "website": "https://ortholuna.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 1964643350,
+  "lat": 52.1292239,
+  "lon": 5.4284397,
+  "tags": {
+    "addr:city": "Leusden",
+    "addr:housenumber": "4",
+    "addr:postcode": "3831NT",
+    "addr:street": "De Smidse",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "OrthoCare",
+    "operator": "OrthoCare Leusden",
+    "ref:bag": "327200000268936",
+    "source": "BAG"
+  }
+},
+{
+  "type": "node",
+  "id": 2374715129,
+  "lat": 51.9105155,
+  "lon": 4.4786001,
+  "tags": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "999",
+    "addr:postcode": "3011BT",
+    "addr:street": "Gedempte Zalmhaven",
+    "amenity": "dentist",
+    "check_date": "2024-08-22",
+    "healthcare": "dentist",
+    "name": "Orthodontix",
+    "source": "BAG",
+    "source:date": "2013-11-26"
+  }
+},
+{
+  "type": "node",
+  "id": 2435194399,
+  "lat": 50.9454517,
+  "lon": 5.7996562,
+  "tags": {
+    "medical_supply": "orthopedic",
+    "name": "Spronken Orthopedie",
+    "shop": "medical_supply"
+  }
+},
+{
+  "type": "node",
+  "id": 2589814044,
+  "lat": 51.9938066,
+  "lon": 4.4760610,
+  "tags": {
+    "addr:city": "Berkel en Rodenrijs",
+    "addr:housenumber": "18",
+    "addr:postcode": "2651CB",
+    "addr:street": "Herenstraat",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "TMOrthodontie",
+    "source": "BAG",
+    "source:date": "2013-11-26",
+    "website": "https://www.tmorthodontie.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 2597975566,
+  "lat": 52.0041823,
+  "lon": 4.3517212,
+  "tags": {
+    "addr:city": "Delft",
+    "addr:housenumber": "1A",
+    "addr:postcode": "2613NS",
+    "addr:street": "Van Saenredamstraat",
+    "amenity": "dentist",
+    "check_date:opening_hours": "2024-05-25",
+    "healthcare": "dentist",
+    "name": "Orthocenter Delft",
+    "opening_hours:signed": "no",
+    "source": "BAG;survey",
+    "source:date": "2013-11-26",
+    "website": "https://www.orthocenter.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 2599505903,
+  "lat": 52.0169288,
+  "lon": 4.3529899,
+  "tags": {
+    "addr:city": "Delft",
+    "addr:housenumber": "10",
+    "addr:postcode": "2611XD",
+    "addr:street": "Koningsplein",
+    "amenity": "dentist",
+    "check_date:opening_hours": "2024-06-29",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthospecialist",
+    "opening_hours:signed": "no",
+    "phone": "+31 15 215 3434",
+    "source": "BAG;survey",
+    "source:date": "2013-11-26",
+    "website": "https://www.orthospecialist.nl/delft/"
+  }
+},
+{
+  "type": "node",
+  "id": 2607120980,
+  "lat": 52.0651914,
+  "lon": 4.4910549,
+  "tags": {
+    "addr:city": "Zoetermeer",
+    "addr:housenumber": "3",
+    "addr:postcode": "2726JK",
+    "addr:street": "Coppeliaschouw",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Praktijk voor Orthodontie en Implantologie Zoetermeer",
+    "source": "BAG",
+    "source:date": "2013-11-26",
+    "website": "https://www.orthozoetermeer.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 2610263996,
+  "lat": 51.9213662,
+  "lon": 4.4941980,
+  "tags": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "522",
+    "addr:postcode": "3011MZ",
+    "addr:street": "Burgemeester van Walsumweg",
+    "healthcare": "occupational_therapist",
+    "name": "Ton Jansen orthopedische schoentechnieken",
+    "source": "BAG",
+    "source:date": "2013-11-26",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2630382048,
+  "lat": 52.0188315,
+  "lon": 4.4303355,
+  "tags": {
+    "addr:city": "Pijnacker",
+    "addr:housenumber": "67",
+    "addr:postcode": "2641BL",
+    "addr:street": "Ackershof",
+    "amenity": "healthcare",
+    "healthcare:speciality": "orthodontics",
+    "name": "Clover orthodontiepraktijk",
+    "phone": "+31 15 241 0023",
+    "source": "BAG",
+    "source:date": "2013-11-26",
+    "website": "https://www.cloverorthodontie.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2653976440,
+  "lat": 52.1328665,
+  "lon": 6.2009838,
+  "tags": {
+    "addr:city": "Zutphen",
+    "addr:housenumber": "2",
+    "addr:postcode": "7204NT",
+    "addr:street": "Bachstraat",
+    "amenity": "kindergarten",
+    "check_date": "2026-02-28",
+    "name": "Orthopedagogisch centrum Zozijn",
+    "source": "BAG",
+    "source:date": "2014-01-22",
+    "website": "https://www.zozijn.nl/locaties/kindercentrum-speeldoos-zutphen"
+  }
+},
+{
+  "type": "node",
+  "id": 2655948787,
+  "lat": 52.1408483,
+  "lon": 6.2031728,
+  "tags": {
+    "addr:city": "Zutphen",
+    "addr:housenumber": "3",
+    "addr:postcode": "7201CJ",
+    "addr:street": "Hogestraatje",
+    "amenity": "dentist",
+    "email": "info@orthodontistenzutphen.nl",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontisten Zutphen",
+    "opening_hours": "Mo-Fr 08:30-16:30",
+    "phone": "+31 575 511 544",
+    "source": "BAG",
+    "source:date": "2014-01-22",
+    "website": "https://www.orthodontistenzutphen.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2668562077,
+  "lat": 52.3097878,
+  "lon": 6.5193304,
+  "tags": {
+    "addr:city": "Rijssen",
+    "addr:housenumber": "42",
+    "addr:postcode": "7462AC",
+    "addr:street": "Huttenwal",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "PVM",
+    "source": "BAG",
+    "source:date": "2014-02-11"
+  }
+},
+{
+  "type": "node",
+  "id": 2683044569,
+  "lat": 52.1497058,
+  "lon": 5.3840987,
+  "tags": {
+    "addr:city": "Amersfoort",
+    "addr:housenumber": "17",
+    "addr:postcode": "3811NK",
+    "addr:street": "Leusderweg",
+    "name": "Eemland Orthopedie",
+    "shop": "medical_supply",
+    "source": "BAG",
+    "source:date": "2014-02-11"
+  }
+},
+{
+  "type": "node",
+  "id": 2683142251,
+  "lat": 52.1530733,
+  "lon": 5.3795871,
+  "tags": {
+    "addr:city": "Amersfoort",
+    "addr:housenumber": "46",
+    "addr:postcode": "3811MT",
+    "addr:street": "Vlasakkerweg",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Het Beugelkwartier",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "website": "https://www.hetbeugelkwartier.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 2683584106,
+  "lat": 52.2255044,
+  "lon": 5.9918108,
+  "tags": {
+    "addr:city": "Apeldoorn",
+    "addr:housenumber": "46",
+    "addr:postcode": "7323JJ",
+    "addr:street": "Agricolastraat",
+    "amenity": "dentist",
+    "check_date:opening_hours": "2025-12-09",
+    "email": "info@spto.nl",
+    "healthcare": "dentist",
+    "name": "Sprenkelaar Tandartsen en Orthodontie (SPTO)",
+    "opening_hours:signed": "no",
+    "phone": "+31 55 785 9705",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "website": "https://www.spto.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2684300231,
+  "lat": 52.0885182,
+  "lon": 5.1219078,
+  "tags": {
+    "addr:city": "Utrecht",
+    "addr:housenumber": "2",
+    "addr:postcode": "3512NR",
+    "addr:street": "Hamburgerstraat",
+    "medical_supply": "orthopedic",
+    "name": "Orthofex",
+    "shop": "medical_supply",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "website": "https://www.orthofex.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2686214527,
+  "lat": 52.2138546,
+  "lon": 5.9755002,
+  "tags": {
+    "addr:city": "Apeldoorn",
+    "addr:housenumber": "103",
+    "addr:postcode": "7321ZN",
+    "addr:street": "Burgemeester Jonkheer Quarles van Uffordlaan",
+    "amenity": "clinic",
+    "email": "info@apeldoornorthodontie.nl",
+    "healthcare": "clinic",
+    "name": "Apeldoorn Orthodontie Welgelegen",
+    "phone": "+31 55 576 6480",
+    "source": "BAG;survey",
+    "source:date": "2014-02-11",
+    "website": "https://www.apeldoornorthodontie.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2687463064,
+  "lat": 52.1955061,
+  "lon": 5.3892934,
+  "tags": {
+    "addr:city": "Amersfoort",
+    "addr:housenumber": "16",
+    "addr:postcode": "3824MP",
+    "addr:street": "Maanlander",
+    "amenity": "dentist",
+    "check_date": "2025-11-12",
+    "healthcare": "dentist",
+    "name": "Ortholuna",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "website": "https://ortholuna.com"
+  }
+},
+{
+  "type": "node",
+  "id": 2698047217,
+  "lat": 52.0444945,
+  "lon": 4.6543538,
+  "tags": {
+    "addr:city": "Waddinxveen",
+    "addr:housenumber": "151A",
+    "addr:postcode": "2741HC",
+    "addr:street": "Kerkweg-Oost",
+    "amenity": "dentist",
+    "email": "balie@orthospecialist-waddinxveen.nl",
+    "healthcare": "dentist",
+    "name": "Orthospecialist Waddinxveen",
+    "opening_hours": "Mo-Th 08:00-12:30,13:00-16:30; Fr 08:00-12:30,13:00-15:00; Sa-Su off",
+    "phone": "+31 182 633 436",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "website": "https://orthodontist-orthospecialist.nl/waddinxveen/"
+  }
+},
+{
+  "type": "node",
+  "id": 2704844402,
+  "lat": 52.0748014,
+  "lon": 4.3615841,
+  "tags": {
+    "addr:city": "Voorburg",
+    "addr:housenumber": "96",
+    "addr:postcode": "2273BW",
+    "addr:street": "Burgemeester Feithplein",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Ortho Leidschendam-Voorburg",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "website": "https://www.ortho-lv.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2714177779,
+  "lat": 52.4317033,
+  "lon": 6.0743064,
+  "tags": {
+    "addr:city": "Wapenveld",
+    "addr:housenumber": "34b",
+    "addr:postcode": "8191AE",
+    "addr:street": "Klapperdijk",
+    "email": "info@heetkamporthopedie.nl",
+    "medical_supply": "orthopedic",
+    "name": "Heetkamp Orthopedische Schoentechnieken",
+    "operator": "Heetkamp Orthopedische Schoentechnieken B.V.",
+    "phone": "+31 38 4470997",
+    "shop": "medical_supply",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "website": "https://www.heetkamporthopedie.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 2723772255,
+  "lat": 51.9870815,
+  "lon": 5.8975103,
+  "tags": {
+    "addr:city": "Arnhem",
+    "addr:housenumber": "96",
+    "addr:postcode": "6814GG",
+    "addr:street": "Amsterdamseweg",
+    "amenity": "place_of_worship",
+    "check_date": "2025-07-24",
+    "denomination": "russian_orthodox",
+    "name": "Russisch Orthodoxe Kerk",
+    "religion": "christian",
+    "source": "BAG",
+    "source:date": "2014-02-11"
+  }
+},
+{
+  "type": "node",
+  "id": 2725541751,
+  "lat": 51.9612410,
+  "lon": 5.8579982,
+  "tags": {
+    "addr:city": "Arnhem",
+    "addr:housenumber": "8",
+    "addr:postcode": "6843DM",
+    "addr:street": "Dordrechtweg",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontistenpraktijk Roelofs",
+    "source": "BAG",
+    "source:date": "2014-02-11"
+  }
+},
+{
+  "type": "node",
+  "id": 2728560333,
+  "lat": 51.8898271,
+  "lon": 4.6868195,
+  "tags": {
+    "addr:city": "Nieuw-Lekkerland",
+    "addr:housenumber": "4b",
+    "addr:postcode": "2957AA",
+    "addr:street": "Adriaan Heijnisstraat",
+    "email": "contact@orthoclinic.nl",
+    "healthcare": "physiotherapist",
+    "name": "OrthoClinic Nieuw-Lekkerland",
+    "phone": "+31 85 077 0440",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "website": "https://www.orthoclinic.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2729417684,
+  "lat": 52.0679024,
+  "lon": 4.2882861,
+  "tags": {
+    "addr:city": "'s-Gravenhage",
+    "addr:housenumber": "182",
+    "addr:postcode": "2571SB",
+    "addr:street": "Steijnlaan",
+    "amenity": "orthodontist",
+    "name": "Orthocenter",
+    "source": "BAG",
+    "source:date": "2014-02-11"
+  }
+},
+{
+  "type": "node",
+  "id": 2730089881,
+  "lat": 52.0800542,
+  "lon": 4.2947705,
+  "tags": {
+    "addr:city": "'s-Gravenhage",
+    "addr:housenumber": "192",
+    "addr:postcode": "2518CZ",
+    "addr:street": "Witte de Withstraat",
+    "healthcare": "orthopedadogist",
+    "name": "Creatief Orthopedagoog",
+    "source": "BAG",
+    "source:date": "2014-02-11"
+  }
+},
+{
+  "type": "node",
+  "id": 2730250912,
+  "lat": 52.0868221,
+  "lon": 4.3119915,
+  "tags": {
+    "addr:city": "'s-Gravenhage",
+    "addr:housenumber": "2",
+    "addr:postcode": "2514BB",
+    "addr:street": "Dr. Kuyperstraat",
+    "amenity": "monastery",
+    "denomination": "russian_orthodox",
+    "name": "Orthodox Klooster van de Geboorte van de Heilige Johannes de Voorloper",
+    "religion": "christian",
+    "source": "BAG;way 267592895;wikipedia",
+    "source:date": "2014-02-11",
+    "website": "https://johannesdevoorloper.nl",
+    "wikidata": "Q25396980",
+    "wikimedia_commons": "Category:Orthodox Klooster van de Heilige Johannes de Voorloper, The Hague"
+  }
+},
+{
+  "type": "node",
+  "id": 2731797597,
+  "lat": 52.0702643,
+  "lon": 4.2547285,
+  "tags": {
+    "addr:city": "'s-Gravenhage",
+    "addr:housenumber": "86",
+    "addr:postcode": "2564XN",
+    "addr:street": "Frambozenstraat",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontistenpraktijk Beckman",
+    "source": "BAG",
+    "source:date": "2014-02-11"
+  }
+},
+{
+  "type": "node",
+  "id": 2732913241,
+  "lat": 52.6985541,
+  "lon": 6.1935794,
+  "tags": {
+    "addr:city": "Meppel",
+    "addr:housenumber": "59",
+    "addr:postcode": "7941LG",
+    "addr:street": "Woldstraat",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Orthodontistenpraktijk Meppel",
+    "source": "BAG",
+    "source:date": "2014-02-11"
+  }
+},
+{
+  "type": "node",
+  "id": 2733462712,
+  "lat": 52.6924204,
+  "lon": 6.1950859,
+  "tags": {
+    "addr:city": "Meppel",
+    "addr:housenumber": "33",
+    "addr:postcode": "7941HC",
+    "addr:street": "Stationsweg",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Orthodontist Munninghoff",
+    "source": "BAG",
+    "source:date": "2014-02-11"
+  }
+},
+{
+  "type": "node",
+  "id": 2733811611,
+  "lat": 52.0522169,
+  "lon": 4.2667082,
+  "tags": {
+    "addr:city": "'s-Gravenhage",
+    "addr:housenumber": "453",
+    "addr:postcode": "2544AL",
+    "addr:street": "Meppelweg",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontiepraktijk",
+    "opening_hours": "Mo-Fr 08:30-16:30",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "website": "https://www.orthomeppelweg.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2735585519,
+  "lat": 51.5732240,
+  "lon": 4.8094812,
+  "tags": {
+    "addr:city": "Breda",
+    "addr:housenumber": "100",
+    "addr:postcode": "4834LR",
+    "addr:street": "Heeckerenstraat",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Henneman van Hees orthodontisten",
+    "phone": "+31 76 561 3616",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "website": "https://www.orthobreda.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2740119806,
+  "lat": 53.1985423,
+  "lon": 6.5675602,
+  "tags": {
+    "addr:city": "Groningen",
+    "addr:housenumber": "5",
+    "addr:postcode": "9721PC",
+    "addr:street": "Van Lenneplaan",
+    "name": "Brink Orthopedie",
+    "shop": "medical_supply",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://www.brinkorthopedie.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2741694594,
+  "lat": 51.8157879,
+  "lon": 4.6422144,
+  "tags": {
+    "addr:city": "Zwijndrecht",
+    "addr:housenumber": "41",
+    "addr:postcode": "3331LR",
+    "addr:street": "Stationsweg",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Orthocenter",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://www.orthocenter.nl/onze-orthodontiepraktijken/zwijndrecht/"
+  }
+},
+{
+  "type": "node",
+  "id": 2744658477,
+  "lat": 52.3431232,
+  "lon": 4.7744143,
+  "tags": {
+    "addr:city": "Badhoevedorp",
+    "addr:housenumber": "1",
+    "addr:postcode": "1171CZ",
+    "addr:street": "Snelliuslaan",
+    "leisure": "sports_centre",
+    "name": "Sporthoeve",
+    "operator": "Sportfondsen",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "sport": "swimming",
+    "website": "https://www.desporthoeve.nl",
+    "wikidata": "Q106611770",
+    "wikimedia_commons": "Category:Sporthoeve"
+  }
+},
+{
+  "type": "node",
+  "id": 2747092717,
+  "lat": 51.8040566,
+  "lon": 4.7022715,
+  "tags": {
+    "addr:city": "Dordrecht",
+    "addr:housenumber": "80",
+    "addr:postcode": "3315LG",
+    "addr:street": "Jan Valsterweg",
+    "healthcare": "physiotherapist",
+    "name": "Yogi Orthopedagogiek en Trainingen",
+    "source": "BAG",
+    "source:date": "2014-03-24"
+  }
+},
+{
+  "type": "node",
+  "id": 2748271769,
+  "lat": 53.2081779,
+  "lon": 6.5709893,
+  "tags": {
+    "addr:city": "Groningen",
+    "addr:housenumber": "56",
+    "addr:postcode": "9725CW",
+    "addr:street": "Vechtstraat",
+    "amenity": "dentist",
+    "email": "info@orthodontiegroningerhof.nl",
+    "healthcare": "dentist",
+    "name": "Orthodontie Groningerhof",
+    "opening_hours": "Mo-Th 08:00-16:45",
+    "phone": "+31 50 525 0487",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://www.orthodontiegroningerhof.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2750549234,
+  "lat": 51.8479338,
+  "lon": 4.3397547,
+  "tags": {
+    "addr:city": "Spijkenisse",
+    "addr:housenumber": "100",
+    "addr:postcode": "3207CJ",
+    "addr:street": "Seinestraat",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontiepraktijk Spijkenisse",
+    "opening_hours": "Mo-Th 08:00-17:00; Fr 08:15-16:00",
+    "phone": "+31 181 625 300",
+    "source": "BAG",
+    "source:date": "2014-03-24"
+  }
+},
+{
+  "type": "node",
+  "id": 2751011029,
+  "lat": 51.5318053,
+  "lon": 5.9818816,
+  "tags": {
+    "addr:city": "Venray",
+    "addr:housenumber": "17",
+    "addr:postcode": "5802MA",
+    "addr:street": "Hoogakker",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontistenpraktijk Venray",
+    "source": "BAG",
+    "source:date": "2014-03-24"
+  }
+},
+{
+  "type": "node",
+  "id": 2752348933,
+  "lat": 51.8483138,
+  "lon": 4.3274120,
+  "tags": {
+    "addr:city": "Spijkenisse",
+    "addr:housenumber": "8",
+    "addr:postcode": "3201BH",
+    "addr:street": "Marrewijklaan",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "orthopaedics",
+    "name": "Plexus Orthopedie",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://plexus-orthopedie.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2752350283,
+  "lat": 51.8477592,
+  "lon": 4.3293467,
+  "tags": {
+    "addr:city": "Spijkenisse",
+    "addr:housenumber": "91",
+    "addr:postcode": "3201EM",
+    "addr:street": "Raadhuislaan",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontist Verhoef",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://orthoverhoef.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2756504762,
+  "lat": 51.7988171,
+  "lon": 4.6799590,
+  "tags": {
+    "addr:city": "Dordrecht",
+    "addr:housenumber": "120",
+    "addr:postcode": "3312KW",
+    "addr:street": "Leerparkpromenade",
+    "amenity": "dentist",
+    "contact:facebook": "http://www.facebook.com/OrthoDordt",
+    "contact:instagram": "http://www.instagram.com/ortho_dordt",
+    "email": "info@orthodordt.nl",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "level": "1",
+    "name": "Ortho Dordt",
+    "phone": "+31 78 8200388",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://www.orthodordt.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2757015287,
+  "lat": 51.3288122,
+  "lon": 3.8387839,
+  "tags": {
+    "addr:city": "Terneuzen",
+    "addr:housenumber": "12",
+    "addr:postcode": "4532EB",
+    "addr:street": "Guido Gezellestraat",
+    "amenity": "dentist",
+    "branch": "Terneuzen",
+    "brand": "Orthocenter",
+    "check_date:opening_hours": "2024-07-10",
+    "contact:email": "praktijk.terneuzen@orthocenter.nl",
+    "contact:facebook": "https://www.facebook.com/orthocenternederland/",
+    "contact:instagram": "https://www.instagram.com/orthocenternederland/",
+    "contact:linkedin": "https://www.linkedin.com/company/orthocenter/",
+    "contact:phone": "+31 115 615 300",
+    "contact:website": "https://www.orthocenter.nl/onze-orthodontiepraktijken/terneuzen/",
+    "contact:whatsapp": "+31 6 10669294",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthocenter",
+    "opening_hours": "Mo-Th 08:00-12:00,13:15-16:30; PH,Fr-Su off",
+    "opening_hours:phone": "Mo-Th 08:00-12:30, 13:15-17:30; PH,Fr-Su off",
+    "opening_hours:url": "https://www.orthocenter.nl/onze-orthodontiepraktijken/terneuzen/",
+    "operator": "Marta Castellanos Perote",
+    "source": "BAG",
+    "source:date": "2014-03-24"
+  }
+},
+{
+  "type": "node",
+  "id": 2763368934,
+  "lat": 51.9223142,
+  "lon": 6.0726475,
+  "tags": {
+    "addr:city": "Zevenaar",
+    "addr:housenumber": "12",
+    "addr:postcode": "6905DB",
+    "addr:street": "Ringbaan-Zuid",
+    "name": "Hoevers Orthopedische Schoentechniek",
+    "opening_hours": "Mo 13:30-17:00; Tu-Fr 08:00-12:30,13:30-17:00; Sa,Su off",
+    "shop": "shoes",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://www.hoeversschoentechniek.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2764412741,
+  "lat": 52.0426949,
+  "lon": 5.6667949,
+  "tags": {
+    "addr:city": "Ede",
+    "addr:housenumber": "132",
+    "addr:postcode": "6713AL",
+    "addr:street": "Telefoonweg",
+    "amenity": "dentist",
+    "check_date": "2024-04-20",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontiepraktijk Binda",
+    "opening_hours": "Mo,We,Fr 08:30-17:00; Tu 08:30-19:00",
+    "phone": "+31 318 640 797",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://www.ortho-ede.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2765702666,
+  "lat": 52.0209858,
+  "lon": 4.6971936,
+  "tags": {
+    "addr:city": "Gouda",
+    "addr:housenumber": "1",
+    "addr:postcode": "2803HA",
+    "addr:street": "Dreef",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "source": "BAG",
+    "source:date": "2014-02-11"
+  }
+},
+{
+  "type": "node",
+  "id": 2775590591,
+  "lat": 52.6559143,
+  "lon": 5.0651644,
+  "tags": {
+    "addr:city": "Hoorn",
+    "addr:housenumber": "32D",
+    "addr:postcode": "1625HV",
+    "addr:street": "Nieuwe Steen",
+    "craft": "shoemaker",
+    "name": "Veld Orthopedische Schoentechniek",
+    "opening_hours": "Mo-Fr 08:30-17:00",
+    "phone": "+31 229 236 357",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://www.veldschoenen.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2779661319,
+  "lat": 53.1447485,
+  "lon": 6.5657017,
+  "tags": {
+    "addr:city": "Paterswolde",
+    "addr:housenumber": "179",
+    "addr:postcode": "9765CC",
+    "addr:street": "Hoofdweg",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontiepraktijk Paterswolde",
+    "source": "BAG",
+    "source:date": "2014-03-24"
+  }
+},
+{
+  "type": "node",
+  "id": 2780435897,
+  "lat": 51.9170368,
+  "lon": 4.3524497,
+  "tags": {
+    "addr:city": "Vlaardingen",
+    "addr:housenumber": "21",
+    "addr:postcode": "3135CA",
+    "addr:street": "Goudsesingel",
+    "amenity": "dentist",
+    "email": "vlaardingen@samenwerkendetandartsen.nl",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Samenwerkende Tandartsen",
+    "opening_hours": "Mo-Th 08:00-17:00; Fr 08:00-12:00; PH off",
+    "phone": "+31 10 474 5964",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "website": "https://www.samenwerkendetandartsen.nl/praktijken/vlaardingen"
+  }
+},
+{
+  "type": "node",
+  "id": 2781042170,
+  "lat": 52.2618408,
+  "lon": 6.8056620,
+  "tags": {
+    "addr:city": "Hengelo",
+    "addr:housenumber": "15",
+    "addr:postcode": "7552EC",
+    "addr:street": "Grundellaan",
+    "amenity": "dentist",
+    "branch": "Hengelo",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "TopOrtho",
+    "operator:website": "https://www.toportho.nl/praktijken/toportho-hengelo/",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://www.toportho.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2781335052,
+  "lat": 51.7921828,
+  "lon": 4.6812964,
+  "tags": {
+    "addr:city": "Dordrecht",
+    "addr:housenumber": "6",
+    "addr:postcode": "3318AL",
+    "addr:street": "Karel Lotsyweg",
+    "medical_supply": "orthopedic",
+    "name": "Livit Orthopedie",
+    "operator": "Livit",
+    "shop": "medical_supply",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "wikidata": "Q131876915"
+  }
+},
+{
+  "type": "node",
+  "id": 2783937177,
+  "lat": 51.9302264,
+  "lon": 4.3531306,
+  "tags": {
+    "addr:city": "Vlaardingen",
+    "addr:housenumber": "53",
+    "addr:postcode": "3136JJ",
+    "addr:street": "Reigerlaan",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Van Zanden Orthodontie",
+    "opening_hours": "Mo,Tu,Th 08:00-19:00; We,Fr 08:00-17:15; Sa 09:00-15:00",
+    "phone": "+31 10 474 6219",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://vanzandenorthodontie.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2787061860,
+  "lat": 52.0818862,
+  "lon": 5.2430967,
+  "tags": {
+    "addr:city": "Zeist",
+    "addr:housenumber": "8",
+    "addr:postcode": "3701AH",
+    "addr:street": "Laan van Beek en Royen",
+    "amenity": "clinic",
+    "healthcare:speciality": "orthodontics",
+    "name": "Kelderman Orthodontics",
+    "source": "BAG",
+    "source:date": "2014-03-24"
+  }
+},
+{
+  "type": "node",
+  "id": 2795481816,
+  "lat": 52.3549147,
+  "lon": 4.8106502,
+  "tags": {
+    "addr:city": "Amsterdam",
+    "addr:housenumber": "136",
+    "addr:postcode": "1068NR",
+    "addr:street": "Pieter Calandlaan",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "koning Ortho",
+    "phone": "+31 20 610 7898",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://www.koningortho.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 2797642852,
+  "lat": 51.8703664,
+  "lon": 5.2877552,
+  "tags": {
+    "addr:city": "Meteren",
+    "addr:housenumber": "49a",
+    "addr:postcode": "4194SK",
+    "addr:street": "Rijksstraatweg",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Orthodontie Meteren",
+    "source": "BAG",
+    "source:date": "2014-03-24"
+  }
+},
+{
+  "type": "node",
+  "id": 2807239035,
+  "lat": 52.3119591,
+  "lon": 4.8763044,
+  "tags": {
+    "addr:city": "Amstelveen",
+    "addr:housenumber": "17",
+    "addr:postcode": "1183HM",
+    "addr:street": "Straat van Messina",
+    "amenity": "clinic",
+    "name": "Ortho Amstelveen",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://www.orthoamstelveen.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 2812867546,
+  "lat": 53.1733384,
+  "lon": 6.6038831,
+  "tags": {
+    "addr:city": "Haren Gn",
+    "addr:housenumber": "15",
+    "addr:postcode": "9751AN",
+    "addr:street": "Raadhuisplein",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontist Haren",
+    "source": "BAG",
+    "source:date": "2014-03-24"
+  }
+},
+{
+  "type": "node",
+  "id": 2816408818,
+  "lat": 51.5444198,
+  "lon": 4.1465085,
+  "tags": {
+    "addr:city": "Poortvliet",
+    "addr:housenumber": "2a",
+    "addr:postcode": "4693BR",
+    "addr:street": "Paasdijkstraat",
+    "amenity": "social_facility",
+    "contact:website": "https://www.svrz.nl/onze-locaties/locaties/locatie:de-poorthove",
+    "name": "De Poorthove",
+    "operator": "SVRZ;Stadlander",
+    "social_facility": "assisted_living",
+    "source": "BAG",
+    "source:date": "2014-03-24"
+  }
+},
+{
+  "type": "node",
+  "id": 2816504553,
+  "lat": 52.3567379,
+  "lon": 4.8833031,
+  "tags": {
+    "addr:city": "Amsterdam",
+    "addr:housenumber": "2-HS",
+    "addr:postcode": "1071DX",
+    "addr:street": "Teniersstraat",
+    "amenity": "dentist",
+    "check_date:currency:XBT": "2024-01-01",
+    "currency:XBT": "yes",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontie Museumplein",
+    "payment:lightning": "yes",
+    "payment:lightning_contactless": "no",
+    "payment:onchain": "yes",
+    "phone": "+31 20 72 35 222",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "survey:date": "2025-01-23",
+    "website": "https://www.orthodontiemuseumplein.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 2816682031,
+  "lat": 51.9456311,
+  "lon": 4.4830595,
+  "tags": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "67",
+    "addr:postcode": "3051BD",
+    "addr:street": "Straatweg",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Ortho Tan",
+    "opening_hours": "Mo-Th 08:00-17:00; Fr 08:00-15:00",
+    "phone": "+31 10 4611104",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "website": "https://orthotan.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2817930823,
+  "lat": 51.5185822,
+  "lon": 4.4900831,
+  "tags": {
+    "addr:city": "Roosendaal",
+    "addr:housenumber": "195",
+    "addr:postcode": "4706LL",
+    "addr:street": "Onyxdijk",
+    "amenity": "dentist",
+    "email": "receptie-roosendaal@ortho-jonkman.nl",
+    "fax": "+31 165 565 460",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontistenpraktijk dr. R.E.G. Jonkman",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "phone": "+31 165 565 554",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://www.ortho-jonkman.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2818038887,
+  "lat": 51.5411261,
+  "lon": 4.4703204,
+  "tags": {
+    "addr:city": "Roosendaal",
+    "addr:housenumber": "52",
+    "addr:postcode": "4702TR",
+    "addr:street": "Heuvellaan",
+    "amenity": "dentist",
+    "email": "info@orto.nl",
+    "fax": "+31 165 558 792",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Hagen Orthodontist",
+    "phone": "+31 165 558 889",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "website": "https://www.orto.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2820771598,
+  "lat": 52.2334923,
+  "lon": 4.8331598,
+  "tags": {
+    "addr:city": "Uithoorn",
+    "addr:housenumber": "45",
+    "addr:postcode": "1421DA",
+    "addr:street": "Koningin Julianalaan",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontisten Uithoorn",
+    "opening_hours": "Mo-Fr 08:30-17:00",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2830721094,
+  "lat": 52.0287529,
+  "lon": 5.1733025,
+  "tags": {
+    "addr:city": "Houten",
+    "addr:housenumber": "2",
+    "addr:postcode": "3994XZ",
+    "addr:street": "Pelmolen",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "source": "BAG",
+    "source:date": "2014-03-24"
+  }
+},
+{
+  "type": "node",
+  "id": 2834643727,
+  "lat": 52.3649279,
+  "lon": 5.1741560,
+  "tags": {
+    "name": "Stichting Orthomoleculaire Educatie"
+  }
+},
+{
+  "type": "node",
+  "id": 2835111906,
+  "lat": 50.9155214,
+  "lon": 5.9262956,
+  "tags": {
+    "addr:city": "Hoensbroek",
+    "addr:housenumber": "10A",
+    "addr:postcode": "6433CZ",
+    "addr:street": "Pius XII-plein",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Tandtechniek Beernaert",
+    "source": "BAG",
+    "source:date": "2014-03-24"
+  }
+},
+{
+  "type": "node",
+  "id": 2836884495,
+  "lat": 51.6615070,
+  "lon": 5.0311840,
+  "tags": {
+    "addr:city": "Kaatsheuvel",
+    "addr:housenumber": "72",
+    "addr:postcode": "5171DE",
+    "addr:street": "Hoofdstraat",
+    "healthcare": "counselling",
+    "name": "Stef's Praktijk voor Orthopedagogiek",
+    "phone": "+31 6 11415958",
+    "source": "BAG;streetlevel imagery",
+    "source:date": "2014-03-24",
+    "website": "https://praktijkvanstef.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2844540325,
+  "lat": 50.8878114,
+  "lon": 5.9708025,
+  "tags": {
+    "addr:city": "Heerlen",
+    "addr:housenumber": "15",
+    "addr:postcode": "6411AA",
+    "addr:street": "Looierstraat",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontistenpraktijk Wagemans",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00; Mo-We 13:00-17:30",
+    "phone": "+31 45 571 8889",
+    "source": "BAG",
+    "source:date": "2014-05-07",
+    "website": "https://www.orthowagemans.nl/route---contact"
+  }
+},
+{
+  "type": "node",
+  "id": 2844576497,
+  "lat": 50.8815214,
+  "lon": 5.9785840,
+  "tags": {
+    "addr:city": "Heerlen",
+    "addr:housenumber": "42",
+    "addr:postcode": "6411EE",
+    "addr:street": "Benzenraderweg",
+    "craft": "shoemaker",
+    "name": "GERA Orthopedische Schoentechniek BV",
+    "source": "BAG",
+    "source:date": "2014-05-07"
+  }
+},
+{
+  "type": "node",
+  "id": 2847193075,
+  "lat": 51.5594806,
+  "lon": 5.0505492,
+  "tags": {
+    "addr:city": "Tilburg",
+    "addr:housenumber": "130",
+    "addr:postcode": "5037EN",
+    "addr:street": "Professor Gimbrèrelaan",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Happy Dental & Ortho",
+    "source": "BAG;survey",
+    "source:date": "2014-05-01",
+    "website": "https://happydental.nl/nl/home-nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2848304007,
+  "lat": 52.3973418,
+  "lon": 4.9408334,
+  "tags": {
+    "addr:city": "Amsterdam",
+    "addr:housenumber": "416",
+    "addr:postcode": "1025WP",
+    "addr:street": "Buikslotermeerplein",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Orthocenter Noord",
+    "opening_hours": "Mo,We 08:05-12:00,12:45-16:30; Tu,Th 08:05-12:00,13:00-17:15; Fr 08:05-12:15,13:00-15:30",
+    "source": "BAG",
+    "source:date": "2014-05-07"
+  }
+},
+{
+  "type": "node",
+  "id": 2849100515,
+  "lat": 51.2574746,
+  "lon": 5.7109441,
+  "tags": {
+    "addr:city": "Weert",
+    "addr:housenumber": "2",
+    "addr:postcode": "6001AJ",
+    "addr:street": "Recollectenstraat",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Orthodontistenpraktijk Weert",
+    "source": "BAG",
+    "source:date": "2014-05-07"
+  }
+},
+{
+  "type": "node",
+  "id": 2850731153,
+  "lat": 51.5537289,
+  "lon": 5.0905005,
+  "tags": {
+    "addr:city": "Tilburg",
+    "addr:housenumber": "14",
+    "addr:postcode": "5038WS",
+    "addr:street": "Piusstraat",
+    "craft": "shoemaker",
+    "name": "Adams Orthopedische Schoentechnieken",
+    "source": "BAG",
+    "source:date": "2014-05-07",
+    "website": "https://www.adamsorthopedie.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2850819238,
+  "lat": 51.5851567,
+  "lon": 5.0844751,
+  "tags": {
+    "addr:city": "Tilburg",
+    "addr:housenumber": "52",
+    "addr:postcode": "5011LS",
+    "addr:street": "Haendellaan",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "OrthoTilburg",
+    "source": "BAG",
+    "source:date": "2014-05-07"
+  }
+},
+{
+  "type": "node",
+  "id": 2853435801,
+  "lat": 51.6374531,
+  "lon": 4.8596722,
+  "tags": {
+    "addr:city": "Oosterhout",
+    "addr:housenumber": "30",
+    "addr:postcode": "4902ZC",
+    "addr:street": "Van Oldeneellaan",
+    "name": "Livit Orthopedie",
+    "shop": "medical_supply",
+    "source": "BAG",
+    "source:date": "2014-05-07",
+    "website": "https://www.livit.nl/locaties/orthopedie-oosterhout-vanoldenneellaan/"
+  }
+},
+{
+  "type": "node",
+  "id": 2853751939,
+  "lat": 51.6478829,
+  "lon": 4.8705218,
+  "tags": {
+    "addr:city": "Oosterhout",
+    "addr:housenumber": "9",
+    "addr:postcode": "4901DH",
+    "addr:street": "Pasteurlaan",
+    "name": "Livit Orthopedie",
+    "shop": "medical_supply",
+    "source": "BAG",
+    "source:date": "2014-05-07",
+    "website": "https://www.livit.nl/locaties/orthopedie-oosterhout-pasteurlaan/"
+  }
+},
+{
+  "type": "node",
+  "id": 2854913403,
+  "lat": 52.3348737,
+  "lon": 5.6130017,
+  "tags": {
+    "addr:city": "Harderwijk",
+    "addr:housenumber": "1",
+    "addr:postcode": "3844AK",
+    "addr:street": "Beneluxlaan",
+    "amenity": "social_facility",
+    "name": "Orthoped. dagcentr. De Schutse",
+    "social_facility": "outreach",
+    "source": "BAG",
+    "source:date": "2014-05-07"
+  }
+},
+{
+  "type": "node",
+  "id": 2861569728,
+  "lat": 52.6613444,
+  "lon": 4.8292387,
+  "tags": {
+    "addr:city": "Heerhugowaard",
+    "addr:housenumber": "51",
+    "addr:postcode": "1703RB",
+    "addr:street": "Middenweg",
+    "amenity": "dentist",
+    "branch": "Heerhugowaard",
+    "brand": "TCN",
+    "brand:official_name": "Tandheelkundig Centrum Nederland",
+    "email": "heerhugowaard@tcn.nl",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "TCN",
+    "opening_hours": "Mo-Th 08:00-12:15,13:00-16:45; Fr 08:00-12:15,13:15-17:00; Sa-Su off",
+    "phone": "+31 72 571 5922",
+    "source": "BAG",
+    "source:date": "2014-05-07",
+    "website": "https://tcn.nl/tandarts-heerhugowaard/"
+  }
+},
+{
+  "type": "node",
+  "id": 2862573088,
+  "lat": 52.3202124,
+  "lon": 4.9816349,
+  "tags": {
+    "addr:city": "Amsterdam",
+    "addr:housenumber": "7",
+    "addr:postcode": "1104DB",
+    "addr:street": "Arènpalmstraat",
+    "amenity": "veterinary",
+    "email": "info@orthomanueeldierenarts.nl",
+    "name": "Heukels Orthomanuele Diergeneeskunde",
+    "phone": "+31 20 211 79 49",
+    "source": "BAG",
+    "source:date": "2014-05-07",
+    "website": "https://orthomanueeldierenarts.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2878189744,
+  "lat": 52.4950679,
+  "lon": 6.1074348,
+  "tags": {
+    "addr:city": "Zwolle",
+    "addr:housenumber": "127",
+    "addr:postcode": "8017HR",
+    "addr:street": "Vrouwenlaan",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontiepraktijk Veldhuijzen van Zanten",
+    "source": "BAG",
+    "source:date": "2014-05-24",
+    "website": "https://orthodontistzwolle.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2878225098,
+  "lat": 52.5045778,
+  "lon": 4.9563459,
+  "tags": {
+    "addr:city": "Purmerend",
+    "addr:housenumber": "107",
+    "addr:postcode": "1441ZN",
+    "addr:street": "Wielingenstraat",
+    "amenity": "dentist",
+    "contact:email": "praktijk.purmerend@orthocenter.nl",
+    "contact:phone": "+31 299 472 231",
+    "contact:website": "https://www.orthocenter.nl/onze-orthodontiepraktijken/purmerend/",
+    "contact:whatsapp": "+31 6 10669294",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthocenter",
+    "opening_hours": "Mo 08:00-12:45, 13:15,16:15; Tu 08:00-12:45, 13:15-17:00, 17:30-19:45; We,Th 08:00-12:45,13:15-17:15; Fr 08:00-12:45,13:15-16:15",
+    "opening_hours:phone": "Mo,We-Fr 08:00-10:15,10:30-12:45,13:15-15:00,15:15-18:00; Tu Mo,We-Fr 08:30-10:15,10:30-12:45,13:15-15:00,15:15-18:00",
+    "opening_hours:whatsapp": "08:00-10:00, 16:00-18:00",
+    "source": "BAG",
+    "source:date": "2014-05-24"
+  }
+},
+{
+  "type": "node",
+  "id": 2878244452,
+  "lat": 52.5040160,
+  "lon": 4.9582394,
+  "tags": {
+    "addr:city": "Purmerend",
+    "addr:housenumber": "68",
+    "addr:postcode": "1441MS",
+    "addr:street": "Slenkstraat",
+    "amenity": "dentist",
+    "email": "purmerend@toportho.nl",
+    "emergency:phone": "+31 20 303 4500;+31 900 8212230",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Top Ortho",
+    "opening_hours": "Mo-Fr 08:30-16:30",
+    "phone": "+31 299 424 800",
+    "phone:opening_hours": "Mo-Fr 08:30-12:00, 13:00-16:30",
+    "source": "BAG",
+    "source:date": "2014-05-24",
+    "website": "https://www.toportho.nl/praktijken/toportho-purmerend/"
+  }
+},
+{
+  "type": "node",
+  "id": 2878330287,
+  "lat": 52.5006454,
+  "lon": 6.0851133,
+  "tags": {
+    "addr:city": "Zwolle",
+    "addr:housenumber": "5",
+    "addr:postcode": "8017CC",
+    "addr:street": "Burgemeester van Walsumlaan",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Orthodontiepraktijk Al dente",
+    "source": "BAG",
+    "source:date": "2014-05-24",
+    "website": "https://www.al-dente.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2878942089,
+  "lat": 52.2304585,
+  "lon": 5.1724684,
+  "tags": {
+    "addr:city": "Hilversum",
+    "addr:housenumber": "37",
+    "addr:postcode": "1217KS",
+    "addr:street": "Koninginneweg",
+    "amenity": "dentist",
+    "check_date": "2023-04-17",
+    "check_date:currency:XBT": "2024-01-01",
+    "currency:XBT": "yes",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Mignon van Loenen, Orthodontist",
+    "payment:lightning": "no",
+    "payment:lightning_contactless": "no",
+    "payment:onchain": "yes",
+    "phone": "+31 35 621 0382",
+    "source": "BAG",
+    "source:date": "2014-05-24",
+    "website": "https://orthodontisthilversum.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2879076244,
+  "lat": 52.2153795,
+  "lon": 5.1642842,
+  "tags": {
+    "addr:city": "Hilversum",
+    "addr:housenumber": "258",
+    "addr:postcode": "1215CR",
+    "addr:street": "Gijsbrecht van Amstelstraat",
+    "check_date": "2023-11-12",
+    "fax": "+31 35 621 6451",
+    "medical_supply": "orthopedic",
+    "name": "Meijer Orthopedie",
+    "opening_hours": "Mo 13:00-17:30; Tu-Fr 09:00-13:00,13:30-17:30; Sa-Su off",
+    "phone": "+31 35 624 3001",
+    "shop": "medical_supply",
+    "source": "BAG;survey",
+    "source:date": "2014-05-24",
+    "website": "https://www.meijerorthopedie.nl/meijer-orthopedie-hilversum/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2888162717,
+  "lat": 51.4963826,
+  "lon": 3.8929669,
+  "tags": {
+    "addr:city": "Goes",
+    "addr:housenumber": "43",
+    "addr:postcode": "4462DZ",
+    "addr:street": "Stationspark",
+    "amenity": "dentist",
+    "check_date:opening_hours": "2024-07-21",
+    "email": "orthodontie@orthogoes.nl",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "OrthoGoes",
+    "opening_hours": "Mo-Fr 08:40-12:00,12:30-15:30; PH off",
+    "operator": "J. De Praeter;L. Braeckman",
+    "phone": "+31 113 212 349",
+    "source": "BAG",
+    "source:date": "2014-05-29",
+    "website": "https://orthogoes.tandartsennet.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2890186322,
+  "lat": 51.8225732,
+  "lon": 5.7975631,
+  "tags": {
+    "addr:city": "Nijmegen",
+    "addr:housenumber": "9080K",
+    "addr:postcode": "6538SC",
+    "addr:street": "Zwanenveld",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontistenpraktijk Nijmegen Dukenburg",
+    "source": "BAG",
+    "source:date": "2014-05-30"
+  }
+},
+{
+  "type": "node",
+  "id": 2897142475,
+  "lat": 52.2598957,
+  "lon": 5.5999157,
+  "tags": {
+    "addr:city": "Putten",
+    "addr:housenumber": "113",
+    "addr:postcode": "3881BC",
+    "addr:street": "Dorpsstraat",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Orthodontiepraktijk Putten",
+    "source": "BAG",
+    "source:date": "2014-06-03",
+    "website": "https://www.orthodontiepraktijkputten.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 2898800101,
+  "lat": 52.1524839,
+  "lon": 4.4999604,
+  "tags": {
+    "addr:city": "Leiden",
+    "addr:housenumber": "7",
+    "addr:postcode": "2313JS",
+    "addr:street": "De Laat de Kanterstraat",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Orthocenter Leiden",
+    "source": "BAG",
+    "source:date": "2014-06-04",
+    "website": "https://www.orthocenter.nl/onze-orthodontiepraktijken/leiden/"
+  }
+},
+{
+  "type": "node",
+  "id": 2899313673,
+  "lat": 52.6655620,
+  "lon": 4.7660685,
+  "tags": {
+    "addr:city": "Alkmaar",
+    "addr:housenumber": "43A",
+    "addr:postcode": "1827LB",
+    "addr:street": "Johanna Naberstraat",
+    "amenity": "dentist",
+    "email": "praktijk.daalmeer@orthocenter.nl",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthocenter Alkmaar Daalmeer",
+    "operator": "Orthocenter",
+    "phone": "+31 299 756 371",
+    "source": "BAG;survey",
+    "source:date": "2014-06-04",
+    "website": "https://www.orthocenter.nl/onze-orthodontiepraktijken/alkmaar-daalmeer/"
+  }
+},
+{
+  "type": "node",
+  "id": 2909605512,
+  "lat": 52.4909241,
+  "lon": 4.6613454,
+  "tags": {
+    "addr:city": "Beverwijk",
+    "addr:housenumber": "85",
+    "addr:postcode": "1945TC",
+    "addr:street": "Heemskerkerweg",
+    "medical_supply": "orthopedic",
+    "name": "Paulus Ekelschot Orthopedie",
+    "shop": "medical_supply",
+    "source": "BAG",
+    "source:date": "2014-06-10"
+  }
+},
+{
+  "type": "node",
+  "id": 2922553445,
+  "lat": 51.4970948,
+  "lon": 3.6190870,
+  "tags": {
+    "addr:city": "Middelburg",
+    "addr:housenumber": "29",
+    "addr:postcode": "4331HW",
+    "addr:street": "Loskade",
+    "amenity": "dentist",
+    "branch": "Middelburg",
+    "brand": "Orthocenter",
+    "check_date:opening_hours": "2024-07-10",
+    "contact:email": "praktijk.middelburg@orthocenter.nl",
+    "contact:phone": "+31 118 615 134",
+    "contact:website": "https://www.orthocenter.nl/",
+    "contact:whatsapp": "+31 6 10669294",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthocenter",
+    "opening_hours": "Mo-Th 08:00-12:00,13:00-16:45; PH,Fr-Su off",
+    "opening_hours:phone": "Mo-Th 08:00-12:00, 13:00-16:45; PH,Fr-Su off",
+    "opening_hours:url": "https://www.orthocenter.nl/onze-orthodontiepraktijken/middelburg/",
+    "operator": "Cristina Chueca Rodilla",
+    "source": "BAG",
+    "source:date": "2014-06-18"
+  }
+},
+{
+  "type": "node",
+  "id": 2923029025,
+  "lat": 52.5037989,
+  "lon": 5.4625133,
+  "tags": {
+    "addr:city": "Lelystad",
+    "addr:housenumber": "3",
+    "addr:postcode": "8243JE",
+    "addr:street": "Botter 44",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontiepraktijk de Botter",
+    "source": "BAG",
+    "source:date": "2014-06-19"
+  }
+},
+{
+  "type": "node",
+  "id": 2925674729,
+  "lat": 52.3726530,
+  "lon": 4.9387547,
+  "tags": {
+    "addr:city": "Amsterdam",
+    "addr:housenumber": "25-29",
+    "addr:postcode": "1019JK",
+    "addr:street": "C. van Eesterenlaan",
+    "amenity": "dentist",
+    "check_date": "2026-01-10",
+    "healthcare": "dentist",
+    "name": "Zeeburg Orthodontie",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "website": "http://zeeburgorthodontie.nl",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2949994434,
+  "lat": 53.1071502,
+  "lon": 6.1002462,
+  "tags": {
+    "addr:city": "Drachten",
+    "addr:housenumber": "17",
+    "addr:postcode": "9203CC",
+    "addr:street": "Noordkade",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontiepraktijk Centrum",
+    "source": "BAG",
+    "source:date": "2014-07-05"
+  }
+},
+{
+  "type": "node",
+  "id": 3011365177,
+  "lat": 51.6697062,
+  "lon": 5.6095477,
+  "tags": {
+    "addr:city": "Uden",
+    "addr:housenumber": "1B",
+    "addr:postcode": "5402CB",
+    "addr:street": "Hobostraat",
+    "name": "Van den Brand Orthopedie",
+    "shop": "orthopedics",
+    "source": "BAG",
+    "source:date": "2014-08-11",
+    "website": "https://www.paulvandenbrand.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 3013386700,
+  "lat": 51.9674235,
+  "lon": 5.6548591,
+  "tags": {
+    "addr:city": "Wageningen",
+    "addr:housenumber": "16",
+    "addr:postcode": "6702AD",
+    "addr:street": "Mennonietenweg",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Bonoort Orthodontistenpraktijk",
+    "phone": "+31 317 419 910",
+    "source": "BAG",
+    "source:date": "2014-08-12",
+    "website": "https://bonoort-orthodontist.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 3014130095,
+  "lat": 51.9733613,
+  "lon": 5.6682295,
+  "tags": {
+    "addr:city": "Wageningen",
+    "addr:housenumber": "3",
+    "addr:postcode": "6707HM",
+    "addr:street": "Floralaan",
+    "amenity": "dentist",
+    "email": "info@ortho-wageningen.nl",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontiepraktijk Wageningen",
+    "phone": "+31 317 414 334",
+    "source": "BAG",
+    "source:date": "2014-08-13",
+    "website": "https://www.ortho-wageningen.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 3041159702,
+  "lat": 52.1256152,
+  "lon": 5.0862706,
+  "tags": {
+    "addr:city": "Utrecht",
+    "addr:housenumber": "7",
+    "addr:postcode": "3565BE",
+    "addr:street": "Oregondreef",
+    "healthcare": "podiatrist",
+    "name": "Schrijver Orthopedie",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:30",
+    "phone": "+31 30 262 2727",
+    "source": "BAG",
+    "source:date": "2014-08-25",
+    "website": "https://www.schrijverorthopedie.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 3041794587,
+  "lat": 52.1091364,
+  "lon": 5.0922327,
+  "tags": {
+    "addr:city": "Utrecht",
+    "addr:housenumber": "10",
+    "addr:postcode": "3553KA",
+    "addr:street": "Johannes Gerobulusstraat",
+    "check_date": "2025-12-01",
+    "check_date:opening_hours": "2025-12-01",
+    "craft": "shoemaker",
+    "email": "eslinorthopedics@zonnet.nl",
+    "name": "Eslin Orthopedie",
+    "opening_hours": "Mo 13:00-17:00; Tu-Fr 09:00-17:00",
+    "phone": "+31 30 242 2700",
+    "source": "BAG",
+    "source:date": "2014-08-25",
+    "website": "https://www.eslinorthopedie.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 3042983167,
+  "lat": 52.1021155,
+  "lon": 5.1084134,
+  "tags": {
+    "addr:city": "Utrecht",
+    "addr:housenumber": "501",
+    "addr:postcode": "3513EP",
+    "addr:street": "Oudenoord",
+    "amenity": "dentist",
+    "check_date": "2025-11-17",
+    "check_date:opening_hours": "2025-11-17",
+    "email": "praktijk.utrechtoudenoord@orthocenter.nl",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthocenter",
+    "opening_hours": "Mo 08:00-12:30,13:15-17:30; Tu-Th 08:00-12:30,13:15-17:00",
+    "phone": "+31 30 240 0992",
+    "source": "BAG",
+    "source:date": "2014-08-25",
+    "website": "https://www.orthocenter.nl/onze-orthodontiepraktijken/utrecht-oudenoord/"
+  }
+},
+{
+  "type": "node",
+  "id": 3064602745,
+  "lat": 53.1957578,
+  "lon": 5.7985918,
+  "tags": {
+    "addr:city": "Leeuwarden",
+    "addr:housenumber": "57",
+    "addr:postcode": "8932NB",
+    "addr:street": "Schrans",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontiepraktijk Leeuwarden",
+    "opening_hours": "Mo-Fr 08:40-17:00",
+    "source": "BAG",
+    "source:date": "2014-09-07",
+    "website": "https://orthodontiepraktijk.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 3065806858,
+  "lat": 53.2154798,
+  "lon": 5.7911188,
+  "tags": {
+    "addr:city": "Leeuwarden",
+    "addr:housenumber": "3",
+    "addr:postcode": "8918GK",
+    "addr:street": "Hooidam",
+    "healthcare": "laboratory",
+    "healthcare:speciality": "orthodontics",
+    "name": "Fries Tandtechnisch Laboratorium",
+    "operator": "Excent",
+    "source": "BAG",
+    "source:date": "2014-09-07",
+    "website": "https://excent.eu/lab-information.htm?LabId=20"
+  }
+},
+{
+  "type": "node",
+  "id": 3162716124,
+  "lat": 52.8996594,
+  "lon": 7.0006017,
+  "tags": {
+    "amenity": "social_facility",
+    "contact:phone": "+31 6 54967325",
+    "contact:website": "http://www.explora.nu/",
+    "name": "EXPLORA Instituut voor Psychologie en Orthopedagogiek",
+    "social_facility": "healthcare",
+    "social_facility:for": "child"
+  }
+},
+{
+  "type": "node",
+  "id": 3490042711,
+  "lat": 51.5157346,
+  "lon": 5.3993676,
+  "tags": {
+    "addr:city": "Best",
+    "addr:housenumber": "77",
+    "addr:postcode": "5683KB",
+    "addr:street": "Nieuwstraat",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Orthobest",
+    "opening_hours": "Mo-Fr 08:30-16:00",
+    "source": "BAG",
+    "source:date": "2015-05-01"
+  }
+},
+{
+  "type": "node",
+  "id": 3530460212,
+  "lat": 51.5941983,
+  "lon": 4.8234073,
+  "tags": {
+    "addr:city": "Breda",
+    "addr:housenumber": "5B",
+    "addr:postcode": "4817BL",
+    "addr:street": "Takkebijsters",
+    "amenity": "clinic",
+    "emergency": "no",
+    "healthcare": "clinic",
+    "name": "Jolles Orthopaedische Expertise",
+    "phone": "+31 6 51249807",
+    "source": "BAG",
+    "source:date": "2014-03-24"
+  }
+},
+{
+  "type": "node",
+  "id": 3671065203,
+  "lat": 52.0145513,
+  "lon": 4.3756211,
+  "tags": {
+    "name": "Orthopedium",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 3699126162,
+  "lat": 52.0649304,
+  "lon": 4.4012386,
+  "tags": {
+    "amenity": "orthodontist",
+    "name": "Ortho Specialist"
+  }
+},
+{
+  "type": "node",
+  "id": 3712468281,
+  "lat": 52.0794704,
+  "lon": 4.3091906,
+  "tags": {
+    "amenity": "orthodontist",
+    "name": "Orthodontistenpraktijk Den Haag"
+  }
+},
+{
+  "type": "node",
+  "id": 3750672874,
+  "lat": 12.5420757,
+  "lon": -70.0194073,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Orthodontics",
+    "source": "KG Ground Survey 2015"
+  }
+},
+{
+  "type": "node",
+  "id": 3761677993,
+  "lat": 52.0544149,
+  "lon": 4.3895641,
+  "tags": {
+    "addr:city": "'s-Gravenhage",
+    "addr:housenumber": "417",
+    "addr:postcode": "2496ZT",
+    "addr:street": "Brigantijnlaan",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Orthocenter Ypenburg",
+    "phone": "+31 88 123 7968",
+    "website": "https://www.orthocenter.nl/onze-orthodontiepraktijken/den-haag-ypenburg/"
+  }
+},
+{
+  "type": "node",
+  "id": 4246319309,
+  "lat": 53.2139516,
+  "lon": 6.5623693,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Orthodontiepraktijk Hg Buiteveld"
+  }
+},
+{
+  "type": "node",
+  "id": 4341666126,
+  "lat": 52.5091532,
+  "lon": 4.6708244,
+  "tags": {
+    "addr:city": "Heemskerk",
+    "addr:housenumber": "19",
+    "addr:postcode": "1961EB",
+    "addr:street": "Maerten van Heemskerckstraat",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Orthodontiepraktijk Heemskerk"
+  }
+},
+{
+  "type": "node",
+  "id": 4398743591,
+  "lat": 52.0272703,
+  "lon": 5.0919913,
+  "tags": {
+    "amenity": "dentist",
+    "check_date": "2025-12-10",
+    "healthcare": "dentist",
+    "name": "Orthodontie Merwestein",
+    "name:nl": "Orthodontie Merwestein",
+    "opening_hours:signed": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4482372493,
+  "lat": 52.1398111,
+  "lon": 5.5845296,
+  "tags": {
+    "addr:city": "Barneveld",
+    "addr:housenumber": "14",
+    "addr:postcode": "3771BE",
+    "addr:street": "Langstraat",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Orthodontie Barneveld",
+    "website": "https://www.orthobarneveld.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 4514479655,
+  "lat": 52.2896841,
+  "lon": 4.8426374,
+  "tags": {
+    "addr:city": "Amstelveen",
+    "addr:housenumber": "43",
+    "addr:postcode": "1185XA",
+    "addr:street": "Bovenkerkerweg",
+    "medical_supply": "orthopedic",
+    "name": "Schiedon Orthopedisch Schoentechniek",
+    "shop": "medical_supply"
+  }
+},
+{
+  "type": "node",
+  "id": 4718409769,
+  "lat": 52.1489645,
+  "lon": 5.3786508,
+  "tags": {
+    "addr:city": "Amersfoort",
+    "addr:housenumber": "2",
+    "addr:postcode": "3818DJ",
+    "addr:street": "Charlotte de Bourbonlaan",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontie Amersfoort",
+    "source": "BAG",
+    "source:date": "2017-03-05",
+    "website": "https://orthodontie-amersfoort.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4749227056,
+  "lat": 51.9908963,
+  "lon": 4.4557976,
+  "tags": {
+    "addr:city": "Berkel en Rodenrijs",
+    "addr:housenumber": "119",
+    "addr:postcode": "2652HV",
+    "addr:street": "Zilvergracht",
+    "amenity": "dentist",
+    "email": "info@orthoberkel.nl",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Ortho",
+    "opening_hours": "Mo-Th 07:40-16:10",
+    "phone": "+31 10 530 0110",
+    "source": "BAG",
+    "source:date": "2017-03-22",
+    "website": "https://www.orthoberkel.nl/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4786883881,
+  "lat": 52.1455147,
+  "lon": 4.4944659,
+  "tags": {
+    "addr:city": "Leiden",
+    "addr:housenumber": "32",
+    "addr:postcode": "2321KS",
+    "addr:street": "Bètaplein",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Ortho Leiden",
+    "source": "BAG",
+    "source:date": "2017-04-10",
+    "website": "https://ortholeiden.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4956257433,
+  "lat": 52.0053972,
+  "lon": 6.0236540,
+  "tags": {
+    "addr:city": "Rheden",
+    "addr:housenumber": "55j",
+    "addr:postcode": "6991BR",
+    "addr:street": "Haverweg",
+    "medical_supply": "orthopedic",
+    "name": "Firma Hoevers Orthopedische Schoentechniek",
+    "phone": "+31 26 495 5537",
+    "shop": "medical_supply",
+    "source": "BAG;local knowledge",
+    "source:date": "2017-07-07",
+    "website": "https://www.hoeversschoentechniek.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 5109861010,
+  "lat": 52.0790975,
+  "lon": 4.2707938,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Orthomedix"
+  }
+},
+{
+  "type": "node",
+  "id": 5111168318,
+  "lat": 52.0794935,
+  "lon": 4.2705219,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Orthomedix"
+  }
+},
+{
+  "type": "node",
+  "id": 5231403486,
+  "lat": 52.0612607,
+  "lon": 4.3115473,
+  "tags": {
+    "amenity": "dentist",
+    "name": "Orthodontiepraktijk Laakkwartier",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 5343309830,
+  "lat": 53.1056868,
+  "lon": 6.8857703,
+  "tags": {
+    "addr:city": "Veendam",
+    "addr:housenumber": "27",
+    "addr:postcode": "9641KG",
+    "addr:street": "Parallelweg",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "OrthoNoord",
+    "source": "BAG",
+    "source:date": "2018-01-16",
+    "website": "https://www.orthonoord.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5398603037,
+  "lat": 51.4997876,
+  "lon": 3.8990157,
+  "tags": {
+    "addr:city": "Goes",
+    "addr:housenumber": "34",
+    "addr:postcode": "4461LV",
+    "addr:street": "van Dusseldorpstraat",
+    "amenity": "dentist",
+    "branch": "Goes",
+    "brand": "Orthocenter",
+    "check_date:opening_hours": "2024-07-10",
+    "contact:email": "praktijk.goes@orthocenter.nl",
+    "contact:phone": "+31 113 252 056",
+    "contact:website": "https://www.orthocenter.nl/vestiging/orthocenter/goes/",
+    "contact:whatsapp": "+31 6 10669294",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthocenter",
+    "opening_hours": "Mo-Th 08:30-10:00,10:15-12:00,13:00-15:00,15:15-16:30; PH,Fr-Su off",
+    "opening_hours:phone": "Mo-Th 08:00-12:00,13:00-17:30, Fr 08:00-12:00,12:30-17:30; PH,Sa,Su off",
+    "opening_hours:url": "https://www.orthocenter.nl/onze-orthodontiepraktijken/goes/",
+    "source": "BAG-viewer",
+    "source:date": "2018-02-08"
+  }
+},
+{
+  "type": "node",
+  "id": 5604917718,
+  "lat": 52.6544215,
+  "lon": 4.7585515,
+  "tags": {
+    "addr:city": "Alkmaar",
+    "addr:housenumber": "2B",
+    "addr:postcode": "1825SB",
+    "addr:street": "Europaboulevard",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Orthocenter De Mare"
+  }
+},
+{
+  "type": "node",
+  "id": 5709500067,
+  "lat": 12.5377274,
+  "lon": -70.0312443,
+  "tags": {
+    "addr:country": "AW",
+    "addr:housenumber": "65",
+    "addr:street": "Ponton",
+    "amenity": "dentist",
+    "contact:facebook": "https://www.facebook.com/pages/Aruba-Orthodontic-Clinic/2009238142656253",
+    "healthcare": "dentist",
+    "name": "Aruba Orthodontic Clinic",
+    "source": "Central Bureau of Statistics Aruba"
+  }
+},
+{
+  "type": "node",
+  "id": 5741945007,
+  "lat": 52.1290204,
+  "lon": 5.5683352,
+  "tags": {
+    "addr:city": "Barneveld",
+    "addr:housenumber": "15",
+    "addr:postcode": "3772MS",
+    "addr:street": "Parmentierstraat",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Ortho Fleur",
+    "phone": "+31 342 451 117",
+    "source": "BAG",
+    "source:date": "2018-06-08",
+    "website": "https://orthofleur.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 5767465853,
+  "lat": 53.2138383,
+  "lon": 6.5688919,
+  "tags": {
+    "amenity": "dentist",
+    "check_date:opening_hours": "2022-10-23",
+    "healthcare": "dentist",
+    "name": "Orthodontist Hereplein",
+    "opening_hours:signed": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5827800516,
+  "lat": 52.0409822,
+  "lon": 4.3601631,
+  "tags": {
+    "addr:city": "'s-Gravenhage",
+    "addr:housenumber": "323",
+    "addr:postcode": "2497GL",
+    "addr:street": "Laan van Waalhaven",
+    "name": "VitOrtho BV",
+    "office": "company",
+    "phone": "+31 70 301 0703",
+    "source": "BAG",
+    "source:date": "2013-11-26",
+    "website": "https://www.vitortho.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 5874161225,
+  "lat": 52.0818309,
+  "lon": 5.0593910,
+  "tags": {
+    "addr:city": "De Meern",
+    "addr:housenumber": "27",
+    "addr:postcode": "3454PZ",
+    "addr:street": "Leidse Rijn",
+    "contact:phone": "+31 30 666 3332",
+    "healthcare": "clinic",
+    "healthcare:speciality": "orthodontics",
+    "name": "Kliniek De Meern",
+    "opening_hours": "Mo-Th 08:45-12:00,13:15-17:00; Fr 08:45-14:00",
+    "source": "BAG",
+    "source:date": "2018-09-01",
+    "website": "https://kliniekdemeern.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6082824185,
+  "lat": 12.5182433,
+  "lon": -70.0271132,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "A. Kawaiah Orthodontic",
+    "name:en": "A. Kawaiah Orthodontic"
+  }
+},
+{
+  "type": "node",
+  "id": 6629558670,
+  "lat": 51.7429192,
+  "lon": 4.5546273,
+  "tags": {
+    "addr:city": "Strijen",
+    "addr:housenumber": "19c",
+    "addr:postcode": "3291EE",
+    "addr:street": "Molenstraat",
+    "healthcare": "counselling",
+    "healthcare:counselling": "family",
+    "name": "Orthopedagogische Maatschap Strijen",
+    "office": "healthcare",
+    "source": "BAG",
+    "source:date": "2019-07-08"
+  }
+},
+{
+  "type": "node",
+  "id": 6659711609,
+  "lat": 51.8762343,
+  "lon": 6.2453976,
+  "tags": {
+    "name": "Molenpoorthof",
+    "shop": "mall",
+    "website": "https://www.molenpoorthof.nu/"
+  }
+},
+{
+  "type": "node",
+  "id": 6893500169,
+  "lat": 52.1366599,
+  "lon": 5.4277685,
+  "tags": {
+    "addr:city": "Leusden",
+    "addr:housenumber": "4g",
+    "addr:postcode": "3831JA",
+    "addr:street": "De Biezenkamp",
+    "amenity": "dentist",
+    "branch": "Leusden",
+    "brand": "Ortholuna",
+    "email": "receptie@ortholuna.nl",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "level": "1",
+    "name": "Ortholuna",
+    "opening_hours": "Tu 08:00-12:00",
+    "operator": "Ortholuna",
+    "phone": "+31 33 4944296",
+    "source": "BAG",
+    "source:date": "2019-10-17",
+    "website": "https://ortholuna.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 7042383293,
+  "lat": 52.3044950,
+  "lon": 5.2354381,
+  "tags": {
+    "addr:city": "Huizen",
+    "addr:housenumber": "46",
+    "addr:postcode": "1271TW",
+    "addr:street": "Baanbergenweg",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Orthodontistenpraktijk Huizen",
+    "phone": "+31 35 526 5610",
+    "source": "BAG",
+    "source:date": "2019-12-08",
+    "website": "https://www.ortho-huizen.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 7759229194,
+  "lat": 52.2403104,
+  "lon": 4.4453100,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Ortho Center Noordwijk"
+  }
+},
+{
+  "type": "node",
+  "id": 7793688517,
+  "lat": 51.8315086,
+  "lon": 4.9641037,
+  "tags": {
+    "amenity": "dentist",
+    "email": "booij.orthodontist@planet.nl",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontistenpraktijk J.W. Booij Gorinchem",
+    "phone": "+31 183 635 476",
+    "website": "https://orthodontistgorinchem.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 8245522893,
+  "lat": 52.0394583,
+  "lon": 5.5561649,
+  "tags": {
+    "addr:city": "Veenendaal",
+    "addr:housenumber": "66",
+    "addr:postcode": "3905KZ",
+    "addr:street": "Plesmanstraat",
+    "check_date": "2025-11-06",
+    "name": "Heuvel Orthopedische Schoentechniek",
+    "office": "company",
+    "source": "BAG",
+    "source:date": "2020-12-20",
+    "website": "https://www.heuvel-schoentechniek.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 8303252845,
+  "lat": 52.0615412,
+  "lon": 4.3515577,
+  "tags": {
+    "addr:city": "Voorburg",
+    "addr:housenumber": "5C",
+    "addr:postcode": "2275CX",
+    "addr:street": "Fonteynenburghlaan",
+    "amenity": "social_facility",
+    "name": "Van Haersma Buma Orthopedagogiek",
+    "social_facility": "healthcare",
+    "social_facility:for": "child"
+  }
+},
+{
+  "type": "node",
+  "id": 8303252847,
+  "lat": 52.0614741,
+  "lon": 4.3516664,
+  "tags": {
+    "addr:city": "Voorburg",
+    "addr:housenumber": "5C",
+    "addr:postcode": "2275CX",
+    "addr:street": "Fonteynenburghlaan",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "orthopaedics",
+    "name": "Westland Orthopedie - Van Dalen Voet & Schoencentrum"
+  }
+},
+{
+  "type": "node",
+  "id": 8696765371,
+  "lat": 52.0684205,
+  "lon": 4.5001212,
+  "tags": {
+    "addr:city": "Zoetermeer",
+    "addr:housenumber": "2",
+    "addr:postcode": "2725NA",
+    "addr:street": "Toneellaan",
+    "healthcare": "clinic",
+    "name": "Reinier Haga Orthopedisch Centrum",
+    "website": "https://rhoc.nl/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8899103576,
+  "lat": 52.1671770,
+  "lon": 4.4767601,
+  "tags": {
+    "addr:city": "Leiden",
+    "addr:housenumber": "19",
+    "addr:postcode": "2333ZD",
+    "addr:street": "Hippocratespad",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Poli heelkunde, orthopedie en gipskamer",
+    "operator": "LUMC",
+    "source": "BAG",
+    "source:date": "2021-07-06",
+    "source:name": "Naambord op gevel"
+  }
+},
+{
+  "type": "node",
+  "id": 9037959705,
+  "lat": 53.2238792,
+  "lon": 6.5752882,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Afd. Orthodontie UMCG",
+    "operator": "UMCG"
+  }
+},
+{
+  "type": "node",
+  "id": 9122876559,
+  "lat": 52.0025388,
+  "lon": 4.3551519,
+  "tags": {
+    "addr:city": "Delft",
+    "addr:housenumber": "15",
+    "addr:postcode": "2624AA",
+    "addr:street": "Westlandseweg",
+    "amenity": "dentist",
+    "name": "Van 't Veen, orthodontist",
+    "opening_hours": "Mo 08:00-16:00; Tu 08:00-18:00; We 08:00-20:00; Th 08:00-17:00",
+    "phone": "+31 15 2122736",
+    "source": "BAG",
+    "source:date": "2021-09-08",
+    "website": "https://vantveenorthodontie.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9451220902,
+  "lat": 52.1464260,
+  "lon": 4.4898718,
+  "tags": {
+    "addr:city": "Leiden",
+    "addr:housenumber": "166",
+    "addr:postcode": "2321DG",
+    "addr:street": "Perzikweg",
+    "amenity": "dentist",
+    "name": "Leidse Orthodontist",
+    "source": "BAG",
+    "source:date": "2022-01-26",
+    "website": "https://leidse-orthodontist.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 9848001659,
+  "lat": 51.8158044,
+  "lon": 4.4168062,
+  "tags": {
+    "addr:city": "Oud-Beijerland",
+    "addr:housenumber": "5",
+    "addr:postcode": "3261NA",
+    "addr:street": "Maseratilaan",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontie Oud-Beijerland",
+    "source": "BAG",
+    "source:date": "2022-06-25"
+  }
+},
+{
+  "type": "node",
+  "id": 9911519416,
+  "lat": 52.0675524,
+  "lon": 4.3527468,
+  "tags": {
+    "addr:city": "'s-Gravenhage",
+    "addr:housenumber": "168",
+    "addr:postcode": "2516AB",
+    "addr:street": "Maanweg",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Hawk Orthodontie",
+    "source": "BAG",
+    "source:date": "2022-07-26"
+  }
+},
+{
+  "type": "node",
+  "id": 9913327508,
+  "lat": 52.3477156,
+  "lon": 4.9408758,
+  "tags": {
+    "amenity": "dentist",
+    "email": "receptie@orthodontieamsterdamoost.nl",
+    "healthcare": "dentist",
+    "name": "Orthodontiepraktijk Amsterdam Oost",
+    "opening_hours": "Mo-Th 08:00-17:30; Tu 08:00-20:00; Fr 08:00-13:00",
+    "phone": "+31 20 461 4620",
+    "website": "https://www.orthodontieamsterdamoost.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 10555373754,
+  "lat": 52.4018036,
+  "lon": 4.9304554,
+  "tags": {
+    "amenity": "dentist",
+    "email": "info@northo.nl",
+    "name": "Northo Orthodontistenpraktijk",
+    "opening_hours": "Mo-Fr 08:00-16:30",
+    "phone": "+31 20 237 1010",
+    "website": "https://northo.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 10595893700,
+  "lat": 51.5258167,
+  "lon": 5.0499565,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "H. Cools Tandprothetiek"
+  }
+},
+{
+  "type": "node",
+  "id": 10682600431,
+  "lat": 51.8817400,
+  "lon": 5.8458716,
+  "tags": {
+    "addr:city": "Nijmegen",
+    "addr:housenumber": "5",
+    "addr:postcode": "6515GM",
+    "addr:street": "Carbatinastraat",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontiepraktijk Lent",
+    "opening_hours": "Mo-Th 08:00-16:30",
+    "phone": "+31 24 203 6660",
+    "source": "BAG",
+    "source:date": "2023-02-21",
+    "website": "https://ortho-lent.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 10829682129,
+  "lat": 52.0205360,
+  "lon": 4.7034840,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "TopOrtho Gouda"
+  }
+},
+{
+  "type": "node",
+  "id": 10970287963,
+  "lat": 52.3189913,
+  "lon": 6.9349261,
+  "tags": {
+    "addr:city": "Oldenzaal",
+    "addr:housenumber": "4",
+    "addr:postcode": "7573PC",
+    "addr:street": "Oliemolenstraat",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Braceland Orthodontiepraktijk",
+    "website": "http://www.braceland.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11027748219,
+  "lat": 50.8543056,
+  "lon": 5.6916442,
+  "tags": {
+    "access": "private",
+    "door": "sliding",
+    "entrance": "main",
+    "level": "0",
+    "name": "Porthoshof",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11091614262,
+  "lat": 52.6477025,
+  "lon": 5.0410136,
+  "tags": {
+    "addr:city": "Hoorn",
+    "addr:housenumber": "9A",
+    "addr:postcode": "1625NT",
+    "addr:street": "Blauwe Berg",
+    "amenity": "dentist",
+    "email": "info@bracetimehoorn.nl",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Bracetime Orthodontist",
+    "phone": "+31 229 304 700",
+    "source": "BAG",
+    "source:date": "2023-08-05",
+    "website": "https://www.bracetimehoorn.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 11333022502,
+  "lat": 52.1077070,
+  "lon": 5.0119759,
+  "tags": {
+    "addr:city": "Vleuten",
+    "addr:housenumber": "3",
+    "addr:postcode": "3451AH",
+    "addr:street": "Nieuwe Vaart",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontiepraktijk Leidsche Rijn",
+    "website": "https://www.oplr.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11485667436,
+  "lat": 52.3372390,
+  "lon": 4.9676544,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthodontiepraktijk Diemen",
+    "opening_hours": "Mo,We,Th 08:00-17:30; Tu 08:00-20:00",
+    "phone": "+31 20 600 0046",
+    "website": "https://www.ortho-diemen.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11700379743,
+  "lat": 51.7367210,
+  "lon": 5.3579638,
+  "tags": {
+    "addr:city": "Rosmalen",
+    "addr:housenumber": "195",
+    "addr:postcode": "5245EA",
+    "addr:street": "Het Frontier",
+    "amenity": "dentist",
+    "check_date": "2024-04-18",
+    "healthcare": "dentist",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Merel Kooning Praktijk voor Tandheelkunde & Orthodontie",
+    "payment:cards": "no",
+    "payment:cash": "yes",
+    "payment:credit_cards": "no",
+    "payment:debit_cards": "no",
+    "phone": "+31 73 5212407",
+    "website": "https://praktijkmerelkooning.nl/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12045386714,
+  "lat": 51.2872497,
+  "lon": 4.0510781,
+  "tags": {
+    "amenity": "dentist",
+    "branch": "Hulst",
+    "brand": "Orthocenter",
+    "check_date:opening_hours": "2024-07-10",
+    "contact:email": "praktijk.hulst@orthocenter.nl",
+    "contact:phone": "+31 88 123 7907",
+    "contact:website": "https://www.orthocenter.nl/onze-orthodontiepraktijken/hulst/",
+    "contact:whatsapp": "+31 6 10669294",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Orthocenter",
+    "opening_hours": "week 1-53/2 Mo 08:00-12:30,13:15-16:30, Fr 08:00-12:30; PH,Sa,Su off",
+    "opening_hours:phone": "Mo-Fr 08:00-12:30,13:15-17:30; PH,Sa,Su off",
+    "opening_hours:url": "https://www.orthocenter.nl/onze-orthodontiepraktijken/hulst/",
+    "operator": "Marta Castellanos Perote"
+  }
+},
+{
+  "type": "node",
+  "id": 12433906278,
+  "lat": 51.9534559,
+  "lon": 4.5586838,
+  "tags": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "89",
+    "addr:postcode": "3068AX",
+    "addr:street": "George Hintzenweg",
+    "email": "info@porthosCO2.nl",
+    "name": "Porthos",
+    "office": "company",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://www.porthosco2.nl/",
+    "wikidata": "Q126173261",
+    "wikipedia": "nl:Porthos-project"
+  }
+},
+{
+  "type": "node",
+  "id": 12516702558,
+  "lat": 52.6887920,
+  "lon": 4.7057439,
+  "tags": {
+    "email": "oogvoorontwikkeling@outlook.com",
+    "health_facility:type": "office",
+    "health_person:type": "therapist",
+    "health_service:counselling": "Remedial_education",
+    "healthcare": "occupational_therapist",
+    "mobile": "+31 6 5171 8105",
+    "name": "Praktijk voor Orthopedagogiek Oog voor Ontwikkeling",
+    "operator": "Marja Henneman- van Arenthals",
+    "website": "https://www.oogvoorontwikkeling.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12638765484,
+  "lat": 53.3286562,
+  "lon": 6.9010665,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Ortho Eemsmond",
+    "website": "https://orthoeemsmond.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12673785960,
+  "lat": 51.5789159,
+  "lon": 4.9981873,
+  "tags": {
+    "addr:city": "Tilburg",
+    "addr:housenumber": "7",
+    "addr:postcode": "5045NZ",
+    "addr:street": "Campenhoefdreef",
+    "healthcare": "dentist",
+    "name": "Orthodontistenpraktijk Dominicus Mattheeuws",
+    "source": "BAG",
+    "source:date": "2025-03-17",
+    "website": "https://www.mijnorthodontist.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 12883642638,
+  "lat": 52.0700840,
+  "lon": 4.2757841,
+  "tags": {
+    "addr:city": "'s-Gravenhage",
+    "addr:housenumber": "328",
+    "addr:postcode": "2563ED",
+    "addr:street": "Valkenboslaan",
+    "healthcare": "physiotherapist",
+    "name": "Orthomedix",
+    "operator": "Orthomedix",
+    "phone": "+31 70 3020037;+31 6 30807389",
+    "source": "survey",
+    "source:date": "2025-06-03",
+    "website": "https://orthomedix.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 13020901709,
+  "lat": 52.1433522,
+  "lon": 4.3947208,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Sanders Mello"
+  }
+},
+{
+  "type": "node",
+  "id": 13176449293,
+  "lat": 52.3202259,
+  "lon": 4.9655846,
+  "tags": {
+    "amenity": "dentist",
+    "email": "info@tandartspraktijk-zuidoost.nl",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Tandartspraktijk Zuidoost",
+    "opening_hours": "Mo-Th 07:50-20:30; Fr 07:50-16:30; Sa 08:30-16:00",
+    "phone": "+31 20 690 6031",
+    "website": "https://www.tandartspraktijk-zuidoost.nl/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13247695607,
+  "lat": 52.4416095,
+  "lon": 6.5925941,
+  "tags": {
+    "addr:city": "Daarlerveen",
+    "addr:housenumber": "7",
+    "addr:postcode": "7687AZ",
+    "addr:street": "Nonkeswijk",
+    "amenity": "animal_breeding;animal_training",
+    "facebook": "https://www.facebook.com/p/Martijn-Jansen-Sporthorses-100009847593911/",
+    "name": "Martijn Jansen Sporthorses",
+    "shop": "wholesale",
+    "source": "BAG",
+    "source:date": "2014-03-24"
+  }
+},
+{
+  "type": "node",
+  "id": 13262738713,
+  "lat": 52.2633995,
+  "lon": 6.7706654,
+  "tags": {
+    "addr:city": "Hengelo",
+    "addr:housenumber": "141",
+    "addr:postcode": "7555DL",
+    "addr:street": "Geerdinksweg",
+    "amenity": "clinic",
+    "healthcare": "specialist",
+    "healthcare:speciality": "orthopaedics;sports_medicine",
+    "healthcare:speciality:orthopaedics": "yes",
+    "healthcare:speciality:sports": "yes",
+    "location": "Ziekenhuisgroep Twente",
+    "name": "OCON Orthopedische kliniek",
+    "operator": "OCON",
+    "website": "https://www.ocon.nl"
+  }
+},
+{
+  "type": "node",
+  "id": 13541287463,
+  "lat": 52.2813295,
+  "lon": 6.4184023,
+  "tags": {
+    "addr:city": "Holten",
+    "addr:housenumber": "32",
+    "addr:postcode": "7451CW",
+    "addr:street": "Gaardenstraat",
+    "amenity": "dentist",
+    "email": "balie@ortho.nu",
+    "healthcare": "dentist",
+    "name": "Orthodontie",
+    "opening_hours": "Mo-Th 08:30-12:30; Fr 08:00-13:00; Mo-Th 13:00-16:30; PH off",
+    "operator": "Montis",
+    "phone": "+31 547 364 414",
+    "source": "website",
+    "source:date": "2026-02-10",
+    "website": "https://tandartsenholten.tandartsennet.nl/"
+  }
+},
+{
+  "type": "way",
+  "id": 6390516,
+  "center": {
+    "lat": 53.1722125,
+    "lon": 6.6137964
+  },
+  "nodes": [
+    48102153,
+    3855519980,
+    3855519981,
+    4146362019,
+    3855519982,
+    48103564,
+    48103895,
+    48104451,
+    3824583726,
+    48104968,
+    3855519983,
+    48106199
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Poorthofsweg",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 6440932,
+  "center": {
+    "lat": 52.7474885,
+    "lon": 6.1487297
+  },
+  "nodes": [
+    47345278,
+    47345742,
+    47346563,
+    47346566,
+    47346359,
+    47345715,
+    47345719,
+    47345795,
+    5274372346,
+    5274355235,
+    47349280,
+    2196171285,
+    2196171286,
+    761199106
+  ],
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "60",
+    "name": "Gorthoek",
+    "smoothness": "good",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 6440943,
+  "center": {
+    "lat": 52.7449673,
+    "lon": 6.1457498
+  },
+  "nodes": [
+    10271954562,
+    10271992282,
+    5274381041,
+    5274381040,
+    47340830,
+    47341059,
+    47341136,
+    47341393,
+    47341567,
+    5274372345,
+    47345278
+  ],
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "60",
+    "name": "Gorthoek",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 6464581,
+  "center": {
+    "lat": 53.2424064,
+    "lon": 6.1984743
+  },
+  "nodes": [
+    48263311,
+    6148421177,
+    48263564,
+    48263748,
+    6148421178,
+    2964912915,
+    6148421179,
+    48263971,
+    48264097,
+    6148421296,
+    6148421300,
+    48264116,
+    296452797,
+    2964912916,
+    296452876,
+    6148421303,
+    6148421305,
+    296452799,
+    6148421306,
+    48263359
+  ],
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "60",
+    "name": "De Poorthoek",
+    "smoothness": "intermediate",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 6464583,
+  "center": {
+    "lat": 53.2422231,
+    "lon": 6.2012998
+  },
+  "nodes": [
+    48263311,
+    48263388,
+    48263515
+  ],
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "60",
+    "name": "De Poorthoek",
+    "smoothness": "good",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 6464594,
+  "center": {
+    "lat": 53.2415909,
+    "lon": 6.1999783
+  },
+  "nodes": [
+    5278104519,
+    5278113921,
+    6148421168,
+    48261744,
+    6148421163,
+    48261946,
+    48262284,
+    6148421285,
+    6148421175,
+    48262566,
+    6148421176,
+    48263148,
+    48263311
+  ],
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "60",
+    "name": "De Poorthoek",
+    "smoothness": "intermediate",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 6467403,
+  "center": {
+    "lat": 52.9945127,
+    "lon": 6.2999234
+  },
+  "nodes": [
+    47724092,
+    47724517,
+    5692809100,
+    5692809099,
+    5692809098,
+    47725371,
+    5692809097,
+    47725507,
+    6853266142,
+    5692809095,
+    6853306914,
+    47725784,
+    6853372570,
+    5692809096,
+    5692809094,
+    5692809093,
+    47726395,
+    47728542
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Poorthof"
+  }
+},
+{
+  "type": "way",
+  "id": 6530698,
+  "center": {
+    "lat": 53.3038609,
+    "lon": 6.2736821
+  },
+  "nodes": [
+    48353832,
+    5691156056,
+    5691156055,
+    5691156039,
+    5691156040,
+    5691156035,
+    5691156041,
+    5691156038,
+    5691156036,
+    5691156037,
+    48354498
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Poorthoek",
+    "smoothness": "intermediate",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 6705666,
+  "center": {
+    "lat": 51.3513908,
+    "lon": 6.1587623
+  },
+  "nodes": [
+    42435730,
+    12330594446,
+    42436007,
+    42436051,
+    12330594445,
+    42436249,
+    42436421,
+    12330594444,
+    42436676,
+    12330594443,
+    42436977,
+    42439966,
+    2844703983,
+    42442033,
+    12042208822,
+    42442855,
+    12042208823,
+    5391043502,
+    11373547820
+  ],
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "50",
+    "name": "Hulsforthofweg"
+  }
+},
+{
+  "type": "way",
+  "id": 6840160,
+  "center": {
+    "lat": 52.3425560,
+    "lon": 6.0481514
+  },
+  "nodes": [
+    46256148,
+    9090752529,
+    9094059165,
+    9094059174,
+    10162207674,
+    6364951559,
+    6364951555,
+    46262075
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "name": "Horthoekerweg"
+  }
+},
+{
+  "type": "way",
+  "id": 6840181,
+  "center": {
+    "lat": 52.3374706,
+    "lon": 6.0435236
+  },
+  "nodes": [
+    46220314,
+    11060110811,
+    4142323609,
+    4142323610,
+    46226230,
+    46227024,
+    1119373124,
+    4142323611,
+    46228810,
+    4142323612,
+    46229690,
+    1119372711,
+    46231034,
+    46232456,
+    4142323613,
+    4142323614,
+    46236081,
+    4142323615,
+    46236692,
+    46237965,
+    4142323616,
+    46241149,
+    46242021,
+    1119372995,
+    9090752541,
+    9090752540,
+    9090752539,
+    46247555,
+    4142323617,
+    46248728
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "1",
+    "maxspeed": "60",
+    "name": "Horthoekerweg",
+    "sidewalk": "no",
+    "smoothness": "good",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 6840187,
+  "center": {
+    "lat": 52.3412587,
+    "lon": 6.0463900
+  },
+  "nodes": [
+    46249821,
+    46250406,
+    46250497,
+    4142323621,
+    46250993,
+    46253971,
+    1119373011,
+    46254884,
+    46256148
+  ],
+  "tags": {
+    "destination:forward": "Oene;Olst",
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "name": "Horthoekerweg"
+  }
+},
+{
+  "type": "way",
+  "id": 6840191,
+  "center": {
+    "lat": 52.3345051,
+    "lon": 6.0418781
+  },
+  "nodes": [
+    46219810,
+    46220131,
+    46220314
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "1",
+    "maxspeed": "60",
+    "name": "Horthoekerweg",
+    "sidewalk": "no",
+    "smoothness": "good",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 6941935,
+  "center": {
+    "lat": 51.7676816,
+    "lon": 5.5221773
+  },
+  "nodes": [
+    43789115,
+    7981980996,
+    7981980995,
+    43789371,
+    43789655,
+    43789820
+  ],
+  "tags": {
+    "cyclestreet": "yes",
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Boschpoorthof",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 6942113,
+  "center": {
+    "lat": 51.7681046,
+    "lon": 5.5218007
+  },
+  "nodes": [
+    43789820,
+    43790113,
+    7981980994,
+    6319081301,
+    43790346,
+    10811656766,
+    10811656768,
+    43790830,
+    43791365
+  ],
+  "tags": {
+    "highway": "cycleway",
+    "mofa": "yes",
+    "moped": "designated",
+    "name": "Boschpoorthof",
+    "surface": "asphalt",
+    "traffic_sign": "NL:G12a"
+  }
+},
+{
+  "type": "way",
+  "id": 7049807,
+  "center": {
+    "lat": 52.2970440,
+    "lon": 4.9703278
+  },
+  "nodes": [
+    46072342,
+    2315622001,
+    2315621993,
+    2954854964,
+    6858503743,
+    4379341830,
+    6858503742,
+    6858503741,
+    46066886,
+    6858503740,
+    46066854,
+    4379343359,
+    6858503739,
+    46067151,
+    6858503738,
+    46067666,
+    6858503737,
+    4379369828,
+    6858503736,
+    6858503735,
+    4379341869,
+    2954854965,
+    46069979,
+    46071205
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Montfoorthof"
+  }
+},
+{
+  "type": "way",
+  "id": 7129613,
+  "center": {
+    "lat": 50.8402229,
+    "lon": 5.6710524
+  },
+  "nodes": [
+    41961070,
+    41961526
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Porthoslaan"
+  }
+},
+{
+  "type": "way",
+  "id": 7129639,
+  "center": {
+    "lat": 50.8401963,
+    "lon": 5.6703132
+  },
+  "nodes": [
+    41961324,
+    7531994472,
+    1276197802,
+    7531994473,
+    41961290,
+    41960962,
+    8643770141,
+    1276197786,
+    8643770140,
+    41960903,
+    8643770139,
+    1276197784,
+    8643770138,
+    966938720,
+    41960883,
+    8643770137,
+    41960892,
+    8643770136,
+    1276197797,
+    8643770135,
+    41960974,
+    8643770134,
+    41961041,
+    41961070,
+    966938649,
+    8643770129,
+    41961198,
+    41961635,
+    8643770132,
+    41961742,
+    8643770131,
+    8643770133,
+    8643770130,
+    41961802,
+    2027871102,
+    1276197780,
+    41961803
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Porthoslaan"
+  }
+},
+{
+  "type": "way",
+  "id": 7163930,
+  "center": {
+    "lat": 51.4832992,
+    "lon": 5.4423125
+  },
+  "nodes": [
+    42751442,
+    42752443,
+    42752690,
+    42753511,
+    42753611,
+    10235316864,
+    4723775672,
+    42755296
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Belforthof",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 7163953,
+  "center": {
+    "lat": 51.4835080,
+    "lon": 5.4427700
+  },
+  "nodes": [
+    42753511,
+    42753529,
+    10235316860,
+    42754276
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Belforthof",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 7314658,
+  "center": {
+    "lat": 51.9800685,
+    "lon": 4.5107826
+  },
+  "nodes": [
+    307501441,
+    6488008701,
+    331045503,
+    3982939239,
+    339386773
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Sporthoekpad",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 7417165,
+  "center": {
+    "lat": 52.2242339,
+    "lon": 4.5287654
+  },
+  "nodes": [
+    45783621,
+    8322687215,
+    8322687244,
+    8322687216,
+    8322687209,
+    8322687239,
+    45780448
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Sporthoflaan",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "oneway:mofa": "no",
+    "oneway:moped": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 7417729,
+  "center": {
+    "lat": 52.0240472,
+    "lon": 4.6989919
+  },
+  "nodes": [
+    44901864,
+    5664890410,
+    44903893
+  ],
+  "tags": {
+    "highway": "service",
+    "maxspeed": "30",
+    "name": "Olivier van Noorthof",
+    "service": "parking_aisle",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 30686241,
+  "center": {
+    "lat": 51.9818540,
+    "lon": 4.5117795
+  },
+  "nodes": [
+    339337244,
+    339337246,
+    339337248,
+    339337251,
+    339337252,
+    11524261876,
+    339337255,
+    339337257,
+    339337259,
+    339337244
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Sportpark De Sporthoek",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 30690595,
+  "center": {
+    "lat": 51.9801794,
+    "lon": 4.5109511
+  },
+  "nodes": [
+    339386773,
+    339386775
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "maxspeed": "30",
+    "name": "Sporthoekpad",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 30690596,
+  "center": {
+    "lat": 51.9813736,
+    "lon": 4.5130327
+  },
+  "nodes": [
+    339386775,
+    44707302,
+    307502635,
+    44711183,
+    11030263319,
+    339387064,
+    44712024,
+    44712586,
+    11030263318,
+    11030263317,
+    44712587,
+    11030263316,
+    44713056,
+    44716011,
+    307503602,
+    2377332675,
+    44718369
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "name": "Sporthoekpad",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 30690601,
+  "center": {
+    "lat": 51.9802417,
+    "lon": 4.5108322
+  },
+  "nodes": [
+    339386820,
+    339386819
+  ],
+  "tags": {
+    "bridge": "yes",
+    "foot": "yes",
+    "highway": "cycleway",
+    "layer": "1",
+    "name": "Sporthoekpad",
+    "oneway": "no",
+    "segregated": "yes",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 30690605,
+  "center": {
+    "lat": 51.9805808,
+    "lon": 4.5097226
+  },
+  "nodes": [
+    339386776,
+    12384579440,
+    1668894222,
+    11030263320,
+    331045505,
+    1668894298
+  ],
+  "tags": {
+    "highway": "cycleway",
+    "name": "Sporthoeklaan",
+    "oneway": "no",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 58618219,
+  "center": {
+    "lat": 52.1047676,
+    "lon": 4.3209206
+  },
+  "nodes": [
+    2709844573,
+    2709844565,
+    726435769,
+    2709844612,
+    726435767,
+    1566995384,
+    1566995386,
+    1566995389,
+    2709844693,
+    2709844684,
+    2709844691,
+    2709844698,
+    2709844720,
+    1566995388,
+    9208475582,
+    9208475580,
+    2709844639,
+    2709844646,
+    2709844660,
+    2709844654,
+    2709844658,
+    2709844662,
+    2709844671,
+    2709844663,
+    2709844675,
+    2709844666,
+    9208475579,
+    726435760,
+    9208475581,
+    726435763,
+    2709844813,
+    2709844807,
+    2709844793,
+    2709844782,
+    1566995391,
+    2709844776,
+    726435775,
+    2709844529,
+    2709844527,
+    2709844442,
+    2709844447,
+    726435778,
+    726435773,
+    726435771,
+    2709844573
+  ],
+  "tags": {
+    "addr:city": "'s-Gravenhage",
+    "addr:country": "NL",
+    "addr:housenumber": "19",
+    "addr:postcode": "2597RZ",
+    "addr:street": "Van Akenstraat",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "orthodox",
+    "name": "Koptisch Orthodoxe Kerk van St. Marcus de Evangelist",
+    "phone": "+31 70 324 8081",
+    "ref:bag": "0518100000317827",
+    "religion": "christian",
+    "source": "BAG",
+    "source:date": "2021-10-08",
+    "start_date": "1938"
+  }
+},
+{
+  "type": "way",
+  "id": 74183980,
+  "center": {
+    "lat": 50.8593834,
+    "lon": 5.7310115
+  },
+  "nodes": [
+    360646011,
+    250151197
+  ],
+  "tags": {
+    "highway": "path",
+    "name": "Hulsforthoeve"
+  }
+},
+{
+  "type": "way",
+  "id": 143202170,
+  "center": {
+    "lat": 52.0833683,
+    "lon": 4.2884814
+  },
+  "nodes": [
+    2729910526,
+    2729910155,
+    2729910000,
+    2729909773,
+    2729910421,
+    2729910456,
+    1566950423,
+    1566950425,
+    2729910526
+  ],
+  "tags": {
+    "addr:city": "'s-Gravenhage",
+    "addr:housenumber": "9",
+    "addr:postcode": "2517VL",
+    "addr:street": "Obrechtstraat",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "fixme": "Check entrance",
+    "name": "Russian Orthodox Church",
+    "phone": "+31 70 363 8484",
+    "ref:bag": "0518100000241662",
+    "religion": "christian",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "start_date": "1895",
+    "website": "http://www.ruskerk.nl/"
+  }
+},
+{
+  "type": "way",
+  "id": 153403154,
+  "center": {
+    "lat": 51.9820423,
+    "lon": 4.5066672
+  },
+  "nodes": [
+    331045512,
+    1660963151
+  ],
+  "tags": {
+    "highway": "cycleway",
+    "name": "Sporthoeklaan",
+    "oneway": "no",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 154343167,
+  "center": {
+    "lat": 51.9810724,
+    "lon": 4.5087163
+  },
+  "nodes": [
+    1668894298,
+    331045508
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "cycleway",
+    "layer": "1",
+    "name": "Sporthoeklaan",
+    "oneway": "no",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 154343168,
+  "center": {
+    "lat": 51.9820151,
+    "lon": 4.5065763
+  },
+  "nodes": [
+    331045508,
+    331045509,
+    5541459752,
+    331045512,
+    331045513,
+    6488008710,
+    331045515,
+    6488008711,
+    11030263326,
+    331045517,
+    331045519,
+    11030263325,
+    11030263324,
+    331045521,
+    1660970836,
+    331045524
+  ],
+  "tags": {
+    "highway": "track",
+    "name": "Sporthoeklaan",
+    "oneway": "no",
+    "tracktype": "grade2",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 154343169,
+  "center": {
+    "lat": 51.9809908,
+    "lon": 4.5086071
+  },
+  "nodes": [
+    1668894293,
+    1668894292
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Sporthoeklaan",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 154343170,
+  "center": {
+    "lat": 51.9819585,
+    "lon": 4.5065019
+  },
+  "nodes": [
+    1668894292,
+    5541459751,
+    1660963151,
+    307501442,
+    6488008709,
+    6488008708,
+    13033342690,
+    307501443,
+    13033342658,
+    44719805
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Sporthoeklaan",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 229098677,
+  "center": {
+    "lat": 51.9818520,
+    "lon": 4.5135062
+  },
+  "nodes": [
+    339387002,
+    339386911,
+    339386894,
+    339386893,
+    339386892,
+    7316166919,
+    339386891,
+    339386880,
+    339386865
+  ],
+  "tags": {
+    "foot": "no",
+    "highway": "cycleway",
+    "name": "Sporthoekpad",
+    "oneway": "no",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 268456483,
+  "center": {
+    "lat": 51.4127357,
+    "lon": 5.4795950
+  },
+  "nodes": [
+    2737919963,
+    2737920038,
+    2737920135,
+    2737920132,
+    13188239154,
+    13188239153,
+    2737919952,
+    2737919963
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Fontys Sporthogeschool Eindhoven",
+    "ref:bag": "0772100001014225",
+    "source": "BAG",
+    "source:date": "2024-01-03",
+    "start_date": "2012"
+  }
+},
+{
+  "type": "way",
+  "id": 270004545,
+  "center": {
+    "lat": 51.5318396,
+    "lon": 5.9819218
+  },
+  "nodes": [
+    2751032919,
+    2751032934,
+    2751032955,
+    2751032957,
+    2751033045,
+    2751033037,
+    2751033029,
+    2751033026,
+    2751032916,
+    2751032919
+  ],
+  "tags": {
+    "building": "commercial",
+    "building:levels": "1",
+    "name": "Orthodontistenpraktijk Venray",
+    "phone": "+31 478 588 433",
+    "ref:bag": "984100000412067",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "start_date": "1989",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 270120971,
+  "center": {
+    "lat": 51.4678847,
+    "lon": 5.4745378
+  },
+  "nodes": [
+    2751971800,
+    3112589882,
+    2751971798,
+    3103432984,
+    8857174187,
+    8857174186,
+    8857174185,
+    8857174184,
+    8857174183,
+    8857174182,
+    2751971605,
+    8857174180,
+    8857174179,
+    3112589881,
+    2751971611,
+    2751971615,
+    2751971800
+  ],
+  "tags": {
+    "building:part": "yes",
+    "name": "Porthos",
+    "wikidata": "Q2376061",
+    "wikimedia_commons": "Category:Porthos",
+    "wikipedia": "nl:Porthos (gebouw)"
+  }
+},
+{
+  "type": "way",
+  "id": 272141825,
+  "center": {
+    "lat": 52.0428925,
+    "lon": 5.6383927
+  },
+  "nodes": [
+    2770679900,
+    2770680242,
+    2770679378,
+    2770679214,
+    2770679318,
+    2770679189,
+    2770679900
+  ],
+  "tags": {
+    "amenity": "dentist",
+    "building": "yes",
+    "healthcare": "dentist",
+    "name": "Orthodontist Binda",
+    "ref:bag": "0228100000056804",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "start_date": "1994"
+  }
+},
+{
+  "type": "way",
+  "id": 272932216,
+  "center": {
+    "lat": 51.8882359,
+    "lon": 4.3888810
+  },
+  "nodes": [
+    2778377462,
+    2778377186,
+    2778377194,
+    2778376378,
+    2778376380,
+    2778376363,
+    2778376346,
+    2778377468,
+    2778377470,
+    2778377447,
+    2778377462
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "orthodox",
+    "name": "Ethiopische Orthodoxe Tewahedo Kerk",
+    "ref:bag": "0599100000660077",
+    "religion": "christian",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "start_date": "1964"
+  }
+},
+{
+  "type": "way",
+  "id": 273187753,
+  "center": {
+    "lat": 51.4502531,
+    "lon": 4.9187117
+  },
+  "nodes": [
+    2780635165,
+    6292041394,
+    2780635352,
+    2780635308,
+    2780635314,
+    2780635654,
+    2780635645,
+    2780635699,
+    2780635653,
+    2780635871,
+    2780635965,
+    2780635838,
+    2780635846,
+    2780635780,
+    2780635979,
+    2780634667,
+    2780634415,
+    2780634442,
+    2780634422,
+    2780634338,
+    2780634234,
+    12205558334,
+    2780634147,
+    2780633977,
+    2780633882,
+    2780633853,
+    2780633820,
+    2780633769,
+    2780633809,
+    2780633987,
+    2780633824,
+    2780634200,
+    2780634225,
+    2780634506,
+    2780634411,
+    2780634635,
+    2780634692,
+    2780634876,
+    2780634850,
+    2780635052,
+    2780635073,
+    2780635165
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Sporthotel Bruurs",
+    "ref:bag": "744100000000244",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "start_date": "1997"
+  }
+},
+{
+  "type": "way",
+  "id": 275481518,
+  "center": {
+    "lat": 52.0341116,
+    "lon": 5.3372100
+  },
+  "nodes": [
+    2801112817,
+    13186439922,
+    2801113047,
+    13186439921,
+    2801112954,
+    2801112947,
+    13186439920,
+    2801112890,
+    2801112898,
+    13186439919,
+    13186439918,
+    13186439917,
+    2801112816,
+    2801110399,
+    2801112817
+  ],
+  "tags": {
+    "building": "industrial",
+    "healthcare": "clinic",
+    "healthcare:speciality": "orthopaedics",
+    "name": "Orthopedie Techniek Aardenburg",
+    "ref:bag": "1581100000001021",
+    "source": "BAG",
+    "source:date": "2025-10-01",
+    "start_date": "1982"
+  }
+},
+{
+  "type": "way",
+  "id": 279440252,
+  "center": {
+    "lat": 52.7167795,
+    "lon": 6.4548208
+  },
+  "nodes": [
+    2836439417,
+    2836439439,
+    2836439434,
+    2836439425,
+    2836438917,
+    2836438759,
+    2836436984,
+    2836438737,
+    2836438964,
+    2836439464,
+    2836439466,
+    2836440129,
+    2836440124,
+    2836440348,
+    2836440386,
+    2836440532,
+    2836440537,
+    2836440552,
+    2836440572,
+    2836440575,
+    2836440564,
+    2836440655,
+    2836440622,
+    2836440628,
+    2836440615,
+    2836440638,
+    2836440659,
+    2836440671,
+    2836441081,
+    2836440660,
+    2836440672,
+    2836440599,
+    2836440492,
+    2836440538,
+    2836440451,
+    2836440516,
+    2836440508,
+    2836440488,
+    2836440443,
+    2836440465,
+    2836440460,
+    2836440379,
+    2836440337,
+    2836440342,
+    2836439456,
+    2836439452,
+    2836439417
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Medisch Orthopedagogisch Centrum",
+    "ref:bag": "0118100000050190",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "start_date": "1983"
+  }
+},
+{
+  "type": "way",
+  "id": 279769360,
+  "center": {
+    "lat": 52.3745253,
+    "lon": 5.2097838
+  },
+  "nodes": [
+    2839620641,
+    2839620604,
+    2839620603,
+    2839620606,
+    2839620295,
+    2839620292,
+    2839620291,
+    2839620293,
+    2839620290,
+    2839620294,
+    2839620298,
+    2839620297,
+    2839620299,
+    2839620601,
+    2839620605,
+    2839620611,
+    2839620616,
+    2839620617,
+    2839620621,
+    2839620618,
+    2839620626,
+    2839620629,
+    2839620632,
+    2839620633,
+    2839620631,
+    2839620637,
+    2839620640,
+    2839620641
+  ],
+  "tags": {
+    "addr:city": "Almere",
+    "addr:housenumber": "1",
+    "addr:postcode": "1312BE",
+    "addr:street": "Kroonprinsstraat",
+    "amenity": "dentist",
+    "building": "yes",
+    "healthcare": "dentist",
+    "name": "Noverraz Orthodontie",
+    "ref:bag": "0034100000053970",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "start_date": "1987"
+  }
+},
+{
+  "type": "way",
+  "id": 282346271,
+  "center": {
+    "lat": 50.8593464,
+    "lon": 5.7304489
+  },
+  "nodes": [
+    2862739440,
+    360646011
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Hulsforthoeve"
+  }
+},
+{
+  "type": "way",
+  "id": 285121527,
+  "center": {
+    "lat": 52.2052777,
+    "lon": 4.4011759
+  },
+  "nodes": [
+    2888000842,
+    2888000806,
+    2888000812,
+    2888000807,
+    2888000831,
+    2888000833,
+    2888001032,
+    2888001020,
+    2888001008,
+    2888001007,
+    2888001457,
+    2888001455,
+    2888001459,
+    2888001507,
+    2888001439,
+    2888001446,
+    2888001513,
+    2888001545,
+    2888001090,
+    2888001089,
+    2888001401,
+    2888001088,
+    2888000842
+  ],
+  "tags": {
+    "building": "apartments",
+    "name": "Porthos",
+    "ref:bag": "537100000007491",
+    "source": "BAG",
+    "source:date": "2014-05-29",
+    "start_date": "1999"
+  }
+},
+{
+  "type": "way",
+  "id": 285622708,
+  "center": {
+    "lat": 52.1588939,
+    "lon": 4.4519548
+  },
+  "nodes": [
+    2892948854,
+    2892948812,
+    2892948855,
+    2892948863,
+    2892948865,
+    2892948858,
+    2892948853,
+    2892948842,
+    2892948834,
+    2892948827,
+    2892948819,
+    2892948816,
+    2892948813,
+    2892948804,
+    2892948797,
+    2892948751,
+    2892948351,
+    2892948005,
+    2892948044,
+    2892948092,
+    2892948136,
+    2892948180,
+    2892948326,
+    2892948382,
+    2892948535,
+    2892948701,
+    4796769873,
+    6518273919,
+    2892949027,
+    2892948895,
+    2892948854
+  ],
+  "tags": {
+    "building": "apartments",
+    "name": "Porthos",
+    "ref:bag": "546100000003590",
+    "source": "BAG",
+    "source:date": "2014-06-01",
+    "start_date": "2002"
+  }
+},
+{
+  "type": "way",
+  "id": 290734224,
+  "center": {
+    "lat": 51.3496116,
+    "lon": 6.1538778
+  },
+  "nodes": [
+    1273228951,
+    2942381350,
+    4781088507,
+    4781088511,
+    1273228951
+  ],
+  "tags": {
+    "building": "house",
+    "name": "Hulsforthof",
+    "ref:bag": "983100000020189",
+    "source": "BAG",
+    "source:date": "2014-07-01",
+    "start_date": "1906"
+  }
+},
+{
+  "type": "way",
+  "id": 305155400,
+  "center": {
+    "lat": 51.5807375,
+    "lon": 5.2023239
+  },
+  "nodes": [
+    3097340093,
+    4660148333,
+    3097340095,
+    3097340094
+  ],
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Cia van Boorthof",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "oneway:mofa": "no",
+    "oneway:moped": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 305542470,
+  "center": {
+    "lat": 51.3492084,
+    "lon": 5.3878911
+  },
+  "nodes": [
+    1189389540,
+    1189389531,
+    1917012172,
+    1917012173,
+    1189389537,
+    5541714304,
+    1189389534,
+    5541714301,
+    1189389542
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Voorthof",
+    "wikidata": "Q19640227",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 362879979,
+  "center": {
+    "lat": 18.0248645,
+    "lon": -63.0531462
+  },
+  "nodes": [
+    3671209957,
+    3671209956,
+    3671209624,
+    3671209925,
+    3671209957
+  ],
+  "tags": {
+    "addr:city": "Philipsburg",
+    "addr:housenumber": "209",
+    "addr:street": "Front Street",
+    "amenity": "dentist",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "dentist",
+    "name": "Orthodontist",
+    "roof:material": "concrete",
+    "source": "KG Ground Survey 2015"
+  }
+},
+{
+  "type": "way",
+  "id": 376411364,
+  "center": {
+    "lat": 12.1295703,
+    "lon": -68.9018023
+  },
+  "nodes": [
+    3798456927,
+    13283005457,
+    3798456928,
+    3798456929,
+    3798456931,
+    13283005458,
+    13283005459,
+    13283005460,
+    3798456932,
+    3798456933,
+    3798456934,
+    3798456935,
+    3798456927
+  ],
+  "tags": {
+    "addr:street": "Kaya Rooi Katochi",
+    "amenity": "dentist",
+    "building": "yes",
+    "healthcare": "dentist",
+    "name": "Orthodontic and Dental Clinic",
+    "source": "KG Ground Survey 2015 Curaçao"
+  }
+},
+{
+  "type": "way",
+  "id": 376473231,
+  "center": {
+    "lat": 12.1252640,
+    "lon": -68.9007461
+  },
+  "nodes": [
+    3798838091,
+    3798838092,
+    3798838093,
+    3798838094,
+    3798838095,
+    3798838096,
+    3798838097,
+    3798838098,
+    3798838099,
+    3798838100,
+    3798838101,
+    3798838102,
+    3798838103,
+    3798838091
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Jewish Orthodox Temple",
+    "source": "KG Ground Survey 2015 Curaçao"
+  }
+},
+{
+  "type": "way",
+  "id": 400563881,
+  "center": {
+    "lat": 52.0360967,
+    "lon": 4.2635627
+  },
+  "nodes": [
+    4031118952,
+    4031118955,
+    4031118948,
+    4031118944,
+    4031118952
+  ],
+  "tags": {
+    "amenity": "social_facility",
+    "name": "Orthopedagogisch Behandelcentrum Den Haag",
+    "operator": "Ipse de Bruggen",
+    "social_facility": "day_care",
+    "social_facility:for": "child"
+  }
+},
+{
+  "type": "way",
+  "id": 412906446,
+  "center": {
+    "lat": 52.3405060,
+    "lon": 6.0451268
+  },
+  "nodes": [
+    46248728,
+    4142323619,
+    46249821
+  ],
+  "tags": {
+    "destination:backward": "Vaassen",
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "name": "Horthoekerweg"
+  }
+},
+{
+  "type": "way",
+  "id": 597848408,
+  "center": {
+    "lat": 53.3041402,
+    "lon": 6.2740908
+  },
+  "nodes": [
+    48354498,
+    48354657
+  ],
+  "tags": {
+    "highway": "service",
+    "maxspeed": "30",
+    "name": "Poorthoek",
+    "service": "driveway",
+    "smoothness": "bad",
+    "surface": "cobblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 640013993,
+  "center": {
+    "lat": 52.3866511,
+    "lon": 5.2460465
+  },
+  "nodes": [
+    6029696058,
+    6029696059,
+    6029696060,
+    6029696061,
+    6029696058
+  ],
+  "tags": {
+    "amenity": "college",
+    "name": "Ortho Pedagogisch Didactisch Centrum"
+  }
+},
+{
+  "type": "way",
+  "id": 650579115,
+  "center": {
+    "lat": 51.4091251,
+    "lon": 5.3718348
+  },
+  "nodes": [
+    6102820964,
+    9764467301
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Poorthoeve",
+    "surface": "paving_stones",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 780057146,
+  "center": {
+    "lat": 52.3199563,
+    "lon": 5.0325184
+  },
+  "nodes": [
+    7283708901,
+    11183925867
+  ],
+  "tags": {
+    "highway": "service",
+    "name": "Torenforthof",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 783375127,
+  "center": {
+    "lat": 51.9807187,
+    "lon": 4.5114958
+  },
+  "nodes": [
+    339386865,
+    339386850,
+    1668894228,
+    11030263314,
+    11030263313,
+    11030263315,
+    339386820
+  ],
+  "tags": {
+    "foot": "yes",
+    "highway": "cycleway",
+    "name": "Sporthoekpad",
+    "oneway": "no",
+    "segregated": "yes",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 783375128,
+  "center": {
+    "lat": 51.9801603,
+    "lon": 4.5107222
+  },
+  "nodes": [
+    339386819,
+    339386776
+  ],
+  "tags": {
+    "foot": "yes",
+    "highway": "cycleway",
+    "name": "Sporthoekpad",
+    "oneway": "no",
+    "segregated": "yes",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 783592116,
+  "center": {
+    "lat": 52.3539491,
+    "lon": 5.1373919
+  },
+  "nodes": [
+    7318764454,
+    7318940313,
+    7318764453
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Olivier van Noorthof",
+    "name:etymology:wikidata": "Q962732",
+    "source:maxspeed": "NL:zone30"
+  }
+},
+{
+  "type": "way",
+  "id": 817187192,
+  "center": {
+    "lat": 51.7016797,
+    "lon": 4.8429857
+  },
+  "nodes": [
+    7632119837,
+    7632119836
+  ],
+  "tags": {
+    "highway": "footway",
+    "name": "Ad van Onzenoorthof"
+  }
+},
+{
+  "type": "way",
+  "id": 837369555,
+  "center": {
+    "lat": 51.9794170,
+    "lon": 4.5116594
+  },
+  "nodes": [
+    307501441,
+    331045034,
+    10951417501,
+    12197963671,
+    12198011827,
+    12198011801,
+    8222614730,
+    12198011826,
+    12198011825,
+    10951448610,
+    12197963689
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Sporthoeklaan",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 843227044,
+  "center": {
+    "lat": 53.2423324,
+    "lon": 6.2018194
+  },
+  "nodes": [
+    48263515,
+    6148421182,
+    48263656
+  ],
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "De Poorthoek",
+    "smoothness": "good",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1042737491,
+  "center": {
+    "lat": 51.9031440,
+    "lon": 4.6928595
+  },
+  "nodes": [
+    9598207904,
+    9598207903,
+    9598207902,
+    9598207901,
+    9598207904
+  ],
+  "tags": {
+    "addr:city": "Lekkerkerk",
+    "addr:housenumber": "30",
+    "addr:postcode": "2941CG",
+    "addr:street": "Randweg",
+    "amenity": "dentist",
+    "building": "retail",
+    "building:levels": "2",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics",
+    "name": "Tandartspraktijk Lekkerkerk",
+    "ref:bag": "1931100000001951",
+    "source": "BAG",
+    "source:date": "2025-04-17",
+    "start_date": "2020"
+  }
+},
+{
+  "type": "way",
+  "id": 1062942090,
+  "center": {
+    "lat": 51.4089640,
+    "lon": 5.3713101
+  },
+  "nodes": [
+    9764467305,
+    9764467301,
+    9764467304,
+    9764467303,
+    9764467302,
+    9764467305
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Poorthoeve",
+    "surface": "paving_stones",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 1187864416,
+  "center": {
+    "lat": 51.9804783,
+    "lon": 4.5096670
+  },
+  "nodes": [
+    1668894293,
+    12384579441,
+    6488008703,
+    6488008702,
+    307501441
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Sporthoeklaan",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 1206961349,
+  "center": {
+    "lat": 52.3199269,
+    "lon": 5.0329004
+  },
+  "nodes": [
+    11183925870,
+    11183925867,
+    11183925869,
+    11183925868
+  ],
+  "tags": {
+    "highway": "service",
+    "name": "Torenforthof",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 1234847242,
+  "center": {
+    "lat": 52.7483966,
+    "lon": 6.1530329
+  },
+  "nodes": [
+    761199106,
+    47349588
+  ],
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "60",
+    "name": "Gorthoek"
+  }
+},
+{
+  "type": "way",
+  "id": 1318001766,
+  "center": {
+    "lat": 51.9794962,
+    "lon": 4.5107215
+  },
+  "nodes": [
+    12197963680,
+    12197963679,
+    12197963678,
+    12197963677,
+    12197963676,
+    12197963675,
+    12197963674,
+    12197963673,
+    12197963672,
+    12197963671
+  ],
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Sporthoeklaan",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 1318001767,
+  "center": {
+    "lat": 51.9787558,
+    "lon": 4.5126929
+  },
+  "nodes": [
+    12197963689,
+    5012500336,
+    7815181493
+  ],
+  "tags": {
+    "highway": "track",
+    "name": "Sporthoeklaan"
+  }
+},
+{
+  "type": "way",
+  "id": 1318001768,
+  "center": {
+    "lat": 51.9787662,
+    "lon": 4.5125263
+  },
+  "nodes": [
+    12197963689,
+    12197963688,
+    12197963687,
+    12197963686,
+    12197963685,
+    12197963684,
+    12197963683,
+    12197963681,
+    12197963682
+  ],
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Sporthoeklaan",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 1318001769,
+  "center": {
+    "lat": 51.9788506,
+    "lon": 4.5123427
+  },
+  "nodes": [
+    12197963700,
+    12197963697,
+    12197963696,
+    12197963695,
+    12197963694,
+    12197963693,
+    12198011802,
+    12197963692,
+    12197963691,
+    12197963690,
+    12197963681
+  ],
+  "tags": {
+    "highway": "path",
+    "name": "Sporthoeklaan",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 1318001770,
+  "center": {
+    "lat": 51.9790167,
+    "lon": 4.5122630
+  },
+  "nodes": [
+    12198011801,
+    12197963700,
+    12197963699,
+    12197963698
+  ],
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Sporthoeklaan",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 1318001771,
+  "center": {
+    "lat": 51.9787232,
+    "lon": 4.5119590
+  },
+  "nodes": [
+    12198011814,
+    12198011813,
+    12198011812,
+    12198011811,
+    12198011810,
+    12198011809,
+    12198011808,
+    12198011807,
+    12198011806,
+    12198011805,
+    12198011804,
+    12197963670,
+    12198011803,
+    12198011802
+  ],
+  "tags": {
+    "highway": "path",
+    "name": "Sporthoeklaan",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 1318001772,
+  "center": {
+    "lat": 51.9793251,
+    "lon": 4.5110595
+  },
+  "nodes": [
+    12197963676,
+    12198011824,
+    12198011823,
+    12198011822,
+    12198011821,
+    12198011820,
+    12198011819,
+    12198011818,
+    12198011817,
+    12198011816,
+    12198011815,
+    12198011829
+  ],
+  "tags": {
+    "highway": "path",
+    "name": "Sporthoeklaan",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 1318001773,
+  "center": {
+    "lat": 51.9790765,
+    "lon": 4.5115643
+  },
+  "nodes": [
+    12198011814,
+    12198011840,
+    12198011839,
+    12198011838,
+    12198011837,
+    12198011836,
+    12198011835,
+    12198011834,
+    12198011833,
+    10951417489,
+    12198011832,
+    12198011831,
+    12198011830,
+    12198011829,
+    12198011828,
+    12198011827
+  ],
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Sporthoeklaan",
+    "zone:traffic": "NL:urban"
+  }
+},
+{
+  "type": "way",
+  "id": 1343828017,
+  "center": {
+    "lat": 51.9212455,
+    "lon": 4.1730846
+  },
+  "nodes": [
+    12433971692,
+    12433971690,
+    12433971689,
+    12433971688,
+    12433971687,
+    12433971686,
+    12433971685,
+    12433971684,
+    12433971683,
+    12433971682,
+    12433971681,
+    12433971680,
+    12433971679,
+    12433971678,
+    12433971677,
+    12433971676,
+    12433971675,
+    12433971674,
+    12433971673,
+    12433971672,
+    12433971671,
+    12433971670,
+    12433971669,
+    12433971668,
+    12433971667,
+    12433971666,
+    12433971665,
+    12433971664,
+    12433971663,
+    12433971662,
+    12433971661,
+    12433971660,
+    12433971659,
+    12433971658,
+    12433971657,
+    12433971656,
+    12433971655,
+    12433971654,
+    12433971653,
+    12433971652,
+    12433971691,
+    12433988579,
+    12433988580,
+    12433988581,
+    12433988582,
+    12433988583,
+    12433988584,
+    12433988585,
+    12433988586,
+    12433988587,
+    12433988591,
+    12433988590,
+    12433988589,
+    12433988588,
+    12433963128,
+    12433963129
+  ],
+  "tags": {
+    "layer": "-1",
+    "location": "underground",
+    "man_made": "pipeline",
+    "name": "Porthos-leiding",
+    "operator": "Porthos",
+    "operator:wikidata": "Q126173261",
+    "substance": "carbon_dioxide",
+    "usage": "transmission"
+  }
+},
+{
+  "type": "way",
+  "id": 1343830962,
+  "center": {
+    "lat": 51.9793616,
+    "lon": 4.0450247
+  },
+  "nodes": [
+    12433971640,
+    12433971639,
+    12433971638,
+    12433971637,
+    12433971636,
+    12433971635,
+    12433971634,
+    12433971633
+  ],
+  "tags": {
+    "layer": "-1",
+    "location": "underground",
+    "man_made": "pipeline",
+    "name": "Porthos-leiding",
+    "operator": "Porthos",
+    "operator:wikidata": "Q126173261",
+    "substance": "carbon_dioxide",
+    "usage": "transmission"
+  }
+},
+{
+  "type": "way",
+  "id": 1343830963,
+  "center": {
+    "lat": 51.9607628,
+    "lon": 4.0813311
+  },
+  "nodes": [
+    12433963129,
+    12433963130,
+    12433963131,
+    12433963132,
+    12433963133,
+    12433963134,
+    12433963135,
+    12433963136,
+    12433963137,
+    12433963138,
+    12433963139,
+    12433963140,
+    12433963141,
+    12433963142,
+    12433963143,
+    12433963144,
+    12433963145,
+    12433963146,
+    12433963147,
+    12433963148,
+    12433963149,
+    12433971651,
+    12433971650,
+    12433971649,
+    12433971648,
+    12433971647,
+    12433971646,
+    12433971645,
+    12433971644,
+    12433971643,
+    12433971642,
+    12433971641,
+    12433971640
+  ],
+  "tags": {
+    "layer": "-1",
+    "location": "underground",
+    "man_made": "pipeline",
+    "name": "Porthos-leiding",
+    "operator": "Porthos",
+    "operator:wikidata": "Q126173261",
+    "substance": "carbon_dioxide",
+    "usage": "transmission"
+  }
+},
+{
+  "type": "way",
+  "id": 1394020061,
+  "center": {
+    "lat": 51.9845885,
+    "lon": 4.0413769
+  },
+  "nodes": [
+    12433971633,
+    12433971632
+  ],
+  "tags": {
+    "construction:man_made": "pipeline",
+    "layer": "-1",
+    "location": "underground",
+    "name": "Porthos-leiding",
+    "operator": "Porthos",
+    "operator:wikidata": "Q126173261",
+    "substance": "carbon_dioxide"
+  }
+}
+
+  ]
+}
