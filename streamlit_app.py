@@ -292,54 +292,109 @@ with st.sidebar.expander("📊 Statistics", expanded=False):
     col1.metric("Schools", len(schools))
     col2.metric("Potential", len(potential_locations))
 
-# Session state for right panel visibility
-if 'show_right_panel' not in st.session_state:
-    st.session_state.show_right_panel = False
+# Pre-build the ranked locations HTML once (no reload needed)
+locations_html = ""
+for loc in potential_locations:
+    rank = loc.get('rank', 0)
+    score = loc.get('score', 0)
+    distance = loc.get('distance_from_weesp', 0)
+    population = loc.get('population', 0)
+    badge_color = "#228B22" if rank <= 5 else "#B8860B"
+    locations_html += f"""
+    <div style="background: linear-gradient(135deg, {badge_color}22, {badge_color}11); 
+                border-left: 4px solid {badge_color}; 
+                padding: 8px; 
+                margin-bottom: 6px; 
+                border-radius: 4px;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span style="font-size: 16px; font-weight: bold; color: {badge_color};">#{rank}</span>
+            <span style="font-size: 11px; color: #666;">⭐ {score}</span>
+        </div>
+        <div style="font-size: 11px; color: #444; margin-top: 3px;">
+            📍 {distance} km | 👥 {population:,}
+        </div>
+    </div>
+    """
 
-# Main layout with chevron toggle on right edge
-if st.session_state.show_right_panel:
-    map_col, list_col, chevron_col = st.columns([14, 5, 1])
-else:
-    map_col, chevron_col = st.columns([19, 1])
-    list_col = None
+# CSS for right sidebar that mirrors left sidebar behavior
+st.markdown("""
+<style>
+/* Right sidebar container */
+.right-sidebar {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 280px;
+    height: calc(100vh - 60px);
+    background: #f0f2f6;
+    border-left: 1px solid #ddd;
+    padding: 1rem;
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 999;
+}
+.right-sidebar.open {
+    transform: translateX(0);
+}
+/* Chevron toggle button */
+.right-chevron {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 60px;
+    background: #f0f2f6;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #666;
+    z-index: 1000;
+    transition: right 0.3s ease;
+}
+.right-chevron:hover {
+    background: #e0e2e6;
+}
+.right-chevron.open {
+    right: 280px;
+}
+/* Adjust main content when right sidebar is open */
+.main .block-container {
+    transition: padding-right 0.3s ease;
+}
+</style>
+""", unsafe_allow_html=True)
 
-with map_col:
-    m = create_map(boundary_geojson, population_centers, clinics, dental_clinics, schools, potential_locations, show_population, show_clinics, show_dental, show_schools, show_potential)
-    st_folium(m, width=None, height=700, use_container_width=True)
+# JavaScript for toggle functionality
+st.markdown("""
+<script>
+function toggleRightSidebar() {
+    const sidebar = document.getElementById('right-sidebar');
+    const chevron = document.getElementById('right-chevron');
+    sidebar.classList.toggle('open');
+    chevron.classList.toggle('open');
+    chevron.innerHTML = sidebar.classList.contains('open') ? '›' : '‹';
+}
+</script>
+""", unsafe_allow_html=True)
 
-if st.session_state.show_right_panel and list_col:
-    with list_col:
-        st.markdown("### 🏆 Ranked Locations")
-        st.markdown(f"*€{rent_range[0]}-{rent_range[1]}/mo*")
-        st.markdown("---")
-        
-        for loc in potential_locations:
-            rank = loc.get('rank', 0)
-            score = loc.get('score', 0)
-            distance = loc.get('distance_from_weesp', 0)
-            population = loc.get('population', 0)
-            
-            badge_color = "#228B22" if rank <= 5 else "#B8860B"
-            
-            st.markdown(f"""
-            <div style="background: linear-gradient(135deg, {badge_color}22, {badge_color}11); 
-                        border-left: 4px solid {badge_color}; 
-                        padding: 8px; 
-                        margin-bottom: 6px; 
-                        border-radius: 4px;">
-                <div style="display: flex; justify-content: space-between; align-items: center;">
-                    <span style="font-size: 18px; font-weight: bold; color: {badge_color};">#{rank}</span>
-                    <span style="font-size: 11px; color: #666;">⭐ {score}</span>
-                </div>
-                <div style="font-size: 11px; color: #444; margin-top: 3px;">
-                    📍 {distance} km | 👥 {population:,}
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
+# Right sidebar HTML (pre-rendered, no reload)
+st.markdown(f"""
+<div id="right-chevron" class="right-chevron" onclick="toggleRightSidebar()">‹</div>
+<div id="right-sidebar" class="right-sidebar">
+    <h3 style="margin-top: 0;">🏆 Ranked Locations</h3>
+    <p style="font-size: 12px; color: #666;">€{rent_range[0]}-{rent_range[1]}/mo</p>
+    <hr style="margin: 10px 0;">
+    {locations_html}
+</div>
+""", unsafe_allow_html=True)
 
-# Chevron toggle on right edge
-with chevron_col:
-    chevron = "›" if not st.session_state.show_right_panel else "‹"
-    if st.button(chevron, key="right_panel_toggle", help="Toggle ranked locations"):
-        st.session_state.show_right_panel = not st.session_state.show_right_panel
-        st.rerun()
+# Map takes full width
+m = create_map(boundary_geojson, population_centers, clinics, dental_clinics, schools, potential_locations, show_population, show_clinics, show_dental, show_schools, show_potential)
+st_folium(m, width=None, height=700, use_container_width=True)
